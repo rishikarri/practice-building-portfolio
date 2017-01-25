@@ -6,9 +6,16 @@ class Hi extends Component{
 
 	render(){
 		return(
-			<div>
-				Hi
+			<div className="full-view-height">
+
+				<div className="mid-and-center"> 
+					<div>Rishi Karri </div>
+					<div>Full Stack Web Developer </div> 									
+				</div>				
+
+				
 			</div>
+
 		)
 	}
 }

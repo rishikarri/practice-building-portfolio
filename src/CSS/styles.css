@@ -10,15 +10,15 @@ html {
   left: 0;
   background-color: #f7f7f7;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 16vh;
 }
 /* line 15, ../../compass/sass/styles.scss */
 .side-nav-bar .nav-bar-link {
-  margin-top: 30px;
+  margin-top: 4vh;
   display: block;
   text-align: center;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 3vw;
   color: #7C99B4;
 }
 /* line 24, ../../compass/sass/styles.scss */
@@ -31,4 +31,15 @@ html {
 .nav-bar-link.active-link {
   color: #62C370;
   text-decoration: none;
+}
+
+/* line 38, ../../compass/sass/styles.scss */
+.mid-and-center {
+  text-align: center;
+  margin-top: 26vh;
+}
+
+/* line 44, ../../compass/sass/styles.scss */
+.full-view-height {
+  height: 100vh;
 }

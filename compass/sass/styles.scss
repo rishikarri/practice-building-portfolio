@@ -1,7 +1,7 @@
 $backgroundColor: ghostwhite;
 
  html{
- 	background-color: $backgroundColor;
+ 	background-color: $backgroundColor; 	
  }
 
  .side-nav-bar{
@@ -10,14 +10,14 @@ $backgroundColor: ghostwhite;
  	left: 0; 
  	background-color: #f7f7f7; 
  	overflow: hidden; //disable horizontal scroll
- 	padding-top: 60px;
+ 	padding-top: 16vh;
 
  	.nav-bar-link{
- 		margin-top: 30px;
+ 		margin-top: 4vh;
  		display: block;
  		text-align: center; 		
  		font-weight: 700;
- 		font-size: 24px;
+ 		font-size: 3vw;
  		color: #7C99B4;
  	}
 
@@ -31,4 +31,16 @@ $backgroundColor: ghostwhite;
  .nav-bar-link.active-link{
  	color: #62C370;
  	text-decoration: none;
+ }
+
+ //styling for positioning
+
+ .mid-and-center{
+ 	text-align: center;
+ 	margin-top: 26vh;
+
+ }
+
+ .full-view-height{
+ 	height: 100vh;
  }
