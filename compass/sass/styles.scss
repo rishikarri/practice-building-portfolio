@@ -1,3 +1,34 @@
+$backgroundColor: ghostwhite;
+
  html{
- 	background-color: ghostwhite;
+ 	background-color: $backgroundColor;
+ }
+
+ .side-nav-bar{
+ 	height: 100vh; //want it to be 100% of whatever the viewport is 	
+ 	top: 0;
+ 	left: 0; 
+ 	background-color: #f7f7f7; 
+ 	overflow: hidden; //disable horizontal scroll
+ 	padding-top: 60px;
+
+ 	.nav-bar-link{
+ 		margin-top: 30px;
+ 		display: block;
+ 		text-align: center; 		
+ 		font-weight: 700;
+ 		font-size: 24px;
+ 		color: #7C99B4;
+ 	}
+
+ 	.nav-bar-link:hover{
+ 		color: #62C370;
+ 		text-decoration: none;
+ 	}
+
+ }
+
+ .nav-bar-link.active-link{
+ 	color: #62C370;
+ 	text-decoration: none;
  }
