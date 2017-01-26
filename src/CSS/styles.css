@@ -34,12 +34,19 @@ html {
 }
 
 /* line 38, ../../compass/sass/styles.scss */
-.mid-and-center {
-  text-align: center;
-  margin-top: 26vh;
+.beast-text {
+  font-weight: 800;
+  font-size: 5vh;
+  color: #595858;
 }
 
-/* line 44, ../../compass/sass/styles.scss */
+/* line 46, ../../compass/sass/styles.scss */
+.mid-and-center {
+  text-align: center;
+  margin-top: 27vh;
+}
+
+/* line 52, ../../compass/sass/styles.scss */
 .full-view-height {
   height: 100vh;
 }
