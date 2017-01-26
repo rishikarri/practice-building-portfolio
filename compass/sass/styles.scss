@@ -46,11 +46,27 @@ $backgroundColor: ghostwhite;
  .mid-and-center{
  	text-align: center;
  	margin-top: 27vh;
+ 	margin: auto;
 
  }
 
  .full-view-height{
  	height: 100vh;
+ }
+
+ .background-image{
+ 	background-image: url('../../src/Images/green-nature-image.jpg');
+ 	
+ 	background-repeat: no-repeat;
+ 	height: 100%;
+ 	width: 100%;
+
+ 	display: flex;
+ 	background-size: cover;
+ 	
+
+ 	// align-items: center;
+ 	// justify-content: center;
  }
 
  

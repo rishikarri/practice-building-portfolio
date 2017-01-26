@@ -44,9 +44,20 @@ html {
 .mid-and-center {
   text-align: center;
   margin-top: 27vh;
+  margin: auto;
 }
 
-/* line 52, ../../compass/sass/styles.scss */
+/* line 53, ../../compass/sass/styles.scss */
 .full-view-height {
   height: 100vh;
+}
+
+/* line 57, ../../compass/sass/styles.scss */
+.background-image {
+  background-image: url("../../src/Images/green-nature-image.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-size: cover;
 }

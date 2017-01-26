@@ -25,7 +25,7 @@ class App extends Component {
                 	
                 </div>
 
-                <div className='col-xs-9'>
+                <div className='col-xs-9 full-view-height'>
                 	{this.props.children}
                 </div>
                 
