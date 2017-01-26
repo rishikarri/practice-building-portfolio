@@ -20,12 +20,12 @@ class App extends Component {
     return (
          <div className="container-fluid">
             <div className="row">
-            	<div className="col-xs-3">
+            	<div className="col-xs-3 padding-none">
                 	<SideNavBar />
                 	
                 </div>
 
-                <div className='col-xs-9 full-view-height'>
+                <div className='col-xs-9 full-view-height padding-none'>
                 	{this.props.children}
                 </div>
                 

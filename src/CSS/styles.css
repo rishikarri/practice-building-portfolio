@@ -3,7 +3,7 @@ html {
   background-color: ghostwhite;
 }
 
-/* line 7, ../../compass/sass/styles.scss */
+/* line 8, ../../compass/sass/styles.scss */
 .side-nav-bar {
   height: 100vh;
   top: 0;
@@ -12,7 +12,7 @@ html {
   overflow: hidden;
   padding-top: 16vh;
 }
-/* line 15, ../../compass/sass/styles.scss */
+/* line 16, ../../compass/sass/styles.scss */
 .side-nav-bar .nav-bar-link {
   margin-top: 4vh;
   display: block;
@@ -21,43 +21,55 @@ html {
   font-size: 3vw;
   color: #7C99B4;
 }
-/* line 24, ../../compass/sass/styles.scss */
+/* line 25, ../../compass/sass/styles.scss */
 .side-nav-bar .nav-bar-link:hover {
   color: #62C370;
   text-decoration: none;
 }
 
-/* line 31, ../../compass/sass/styles.scss */
+/* line 32, ../../compass/sass/styles.scss */
 .nav-bar-link.active-link {
   color: #62C370;
   text-decoration: none;
 }
 
-/* line 38, ../../compass/sass/styles.scss */
+/* line 39, ../../compass/sass/styles.scss */
 .beast-text {
   font-weight: 800;
   font-size: 5vh;
-  color: #595858;
+  color: black;
 }
 
-/* line 46, ../../compass/sass/styles.scss */
+/* line 48, ../../compass/sass/styles.scss */
 .mid-and-center {
   text-align: center;
   margin-top: 27vh;
   margin: auto;
+  opacity: 1;
 }
 
-/* line 53, ../../compass/sass/styles.scss */
+/* line 56, ../../compass/sass/styles.scss */
 .full-view-height {
   height: 100vh;
 }
 
-/* line 57, ../../compass/sass/styles.scss */
+/* line 60, ../../compass/sass/styles.scss */
 .background-image {
   background-image: url("../../src/Images/green-nature-image.jpg");
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+  opacity: .7;
   display: flex;
   background-size: cover;
+}
+
+/* line 79, ../../compass/sass/styles.scss */
+.col-xs-3.padding-none {
+  padding: 0px;
+}
+
+/* line 83, ../../compass/sass/styles.scss */
+.col-xs-9.padding-none {
+  padding: 0px;
 }

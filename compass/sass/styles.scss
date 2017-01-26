@@ -1,7 +1,8 @@
 $backgroundColor: ghostwhite;
 
  html{
- 	background-color: $backgroundColor; 	
+ 	background-color: $backgroundColor; 
+
  }
 
  .side-nav-bar{
@@ -38,7 +39,8 @@ $backgroundColor: ghostwhite;
  .beast-text{
  	font-weight: 800;
  	font-size: 5vh;
- 	color: #595858;
+ 	// color: #595858;
+ 	color: black;
  }
 
  //styling for positioning
@@ -47,6 +49,7 @@ $backgroundColor: ghostwhite;
  	text-align: center;
  	margin-top: 27vh;
  	margin: auto;
+ 	opacity: 1;
 
  }
 
@@ -60,13 +63,24 @@ $backgroundColor: ghostwhite;
  	background-repeat: no-repeat;
  	height: 100%;
  	width: 100%;
-
+ 	opacity: .7;
+ 	//make it take up as much of the screen as it can
  	display: flex;
  	background-size: cover;
+
  	
 
  	// align-items: center;
  	// justify-content: center;
  }
 
- 
+ // put side nav bar and content flush against each other
+
+ .col-xs-3.padding-none{
+ 	padding: 0px;
+ }
+
+ .col-xs-9.padding-none{
+ 	padding: 0px;
+
+ }
