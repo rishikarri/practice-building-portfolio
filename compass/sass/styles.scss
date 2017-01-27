@@ -1,5 +1,7 @@
 $backgroundColor: ghostwhite;
 
+
+
  html{
  	background-color: $backgroundColor; 
 
@@ -9,7 +11,8 @@ $backgroundColor: ghostwhite;
  	height: 100vh; //want it to be 100% of whatever the viewport is 	
  	top: 0;
  	left: 0; 
- 	background-color: #f7f7f7; 
+ 	// background-color: #f7f7f7; 
+ 	background-color: #F4F5FE;
  	overflow: hidden; //disable horizontal scroll
  	padding-top: 16vh;
 
@@ -19,11 +22,15 @@ $backgroundColor: ghostwhite;
  		text-align: center; 		
  		font-weight: 200;
  		font-size: 3vw;
- 		color: #7C99B4;
+ 		color: #337ab7;
+ 		// color: #7C99B4;
+ 		// color: #8BB8D7;
+
  	}
 
  	.nav-bar-link:hover{
  		color: #62C370;
+ 		// color: #798855;
  		text-decoration: none;
  	}
 
@@ -31,6 +38,7 @@ $backgroundColor: ghostwhite;
 
  .nav-bar-link.active-link{
  	color: #62C370;
+ 	// color: #869968;
  	text-decoration: none;
  }
 
@@ -58,7 +66,7 @@ $backgroundColor: ghostwhite;
  }
 
  .background-image{
- 	background-image: url('../../src/Images/green-nature-image.jpg');
+ 	background-image: url('../../public/Images/green-nature-image.jpg');
  	
  	background-repeat: no-repeat;
  	height: 100%;
@@ -84,3 +92,102 @@ $backgroundColor: ghostwhite;
  	padding: 0px;
 
  }
+
+ //styling for interest and about sections
+
+ // styling for table in interests section
+
+.about-photo{
+	border-radius: 20%;	
+	height: 15.2vh;
+} 
+
+.margin-above{
+	margin-top: 4vh;
+}
+
+
+
+ th, td{
+ 	padding-left: 1.5vw !important;
+ 	padding-right: 1.5vw !important;
+ 	
+ 	text-align: center;
+ 	
+ }
+ th{
+ 	border-bottom: solid grey .3vw;
+ }
+
+ 
+
+
+
+
+
+ .quote-text{
+ 	@extend .cursive-font;
+ 	font-size: 4.2vh !important;
+ }
+
+ .cursive-font{
+ 	font-family: cursive;
+ 	font-weight: 700;
+ 	font-size: 3.5vh;
+ 	text-align: center;
+ }
+
+ .light-blue-column{
+ 	background-color: #337ab7;
+ 	height: 100vh;
+ 	opacity: .7;
+ 	border-radius: 9vh;
+ 	
+ 	
+ }
+
+  .light-green-column{
+ 	background-color: #62C370;
+ 	height: 100vh;
+ 	opacity: .7;
+ 	border-radius: 9vh;
+
+ }
+
+ .padding-none{
+ 	padding: 0px;
+ }
+
+ .center-text{
+ 	text-align:center
+ }
+
+ .align-left{
+ 	text-align: left;
+ 	
+ }
+
+ .data-entry{
+ 	font-size: 1.8vh;
+ }
+
+ .spacer-column{
+
+ }
+
+
+// styling for headers of about me and interest
+.impact-font{
+	font-family: impact;
+	font-size: 2.4vh;
+	text-align: center;
+	// border-bottom: solid .1vw black;
+}
+// Kill margins so that rows don't reach outside of their parent elements
+ .row.kill-margin{
+ 	margin-right: 0px;
+ 	margin-left: 0px;
+ }
+
+
+
