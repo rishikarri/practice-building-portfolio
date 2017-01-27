@@ -11,7 +11,8 @@ class Hi extends Component{
 				<div className="beast-text mid-and-center"> 
 					<div className>
 						<div>Rishi Karri </div>
-						<div>Full Stack Web Developer </div> 									
+						<div>Full-Stack Web Developer </div> 									
+						<div>Atlanta, Georgia </div> 									
 					</div>
 				</div>				
 

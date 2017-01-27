@@ -33,7 +33,7 @@ class About extends Component{
 
 						<div>
 						<div className='col-xs-12 text-center margin-above'>
-							<img className='company-photo' src='../../Images/digitalcrafts-logo-1200-new.png' />
+							<img className='company-photo' src='../../Images/digitalcrafts-logo-1200-new.png' />	
 						</div>	
 							<ul>						
 								<ul className='title-item open-sans-font'>Full Stack Web Development Student</ul>
@@ -46,9 +46,35 @@ class About extends Component{
 								</ul>
 							</ul>
 						</div>
+					</div>		
 
-					</div>				
+					<div className="row kill-margin">
+						<div className='col-xs-12 cursive-font light-blue-span margin-above'> 
+							Finance Experience
+						</div>
 
+						<div>
+							<div className='col-xs-12 text-center margin-above'>							
+								<img className='company-photo' src='../../Images/BairdLogo.png'/>
+							</div>	
+								<ul>						
+									<ul className='title-item open-sans-font'>Investment Banking Analyst (Technology & Services)</ul>
+									<ul className='title-item open-sans-font'>Investment Banking Intern</ul>
+									<ul className='title-item open-sans-font'>Private Wealth Management Intern</ul>
+								</ul>
+							<div className='col-xs-12 text-center margin-above'>							
+								<img className='company-photo' src='../../Images/university-of-wisco-logo.png' />															
+							</div>
+							<div>
+								<ul>
+									<ul className='title-item open-sans-font'>Introduction to Investment Banking Teaching Assistant</ul>
+									<ul className='title-item open-sans-font'>B.B.A Degree (Finance)</ul>														
+								</ul>
+							</div>
+
+
+						</div>
+					</div>
 				</div>
 			</div>
 
