@@ -1,4 +1,4 @@
-$backgroundColor: ghostwhite;
+$backgroundColor: white;
 
 
 
@@ -6,6 +6,8 @@ $backgroundColor: ghostwhite;
  	background-color: $backgroundColor; 
 
  }
+
+
 
  .side-nav-bar{
  	height: 100vh; //want it to be 100% of whatever the viewport is 	
@@ -53,6 +55,10 @@ $backgroundColor: ghostwhite;
 
  //styling for positioning
 
+ .margin-left{
+ 	margin-left: 4vw;
+ }
+
  .mid-and-center{
  	text-align: center;
  	margin-top: 27vh;
@@ -84,11 +90,11 @@ $backgroundColor: ghostwhite;
 
  // put side nav bar and content flush against each other
 
- .col-xs-3.padding-none{
+ .col-xs-2.padding-none{
  	padding: 0px;
  }
 
- .col-xs-9.padding-none{
+ .col-xs-10.padding-none{
  	padding: 0px;
 
  }
@@ -99,13 +105,25 @@ $backgroundColor: ghostwhite;
 
 .about-photo{
 	border-radius: 20%;	
-	height: 15.2vh;
+	
+
+	
 } 
+
+.company-photo{
+	
+}
 
 .margin-above{
 	margin-top: 4vh;
 }
 
+.title-item{
+	font-size: 1.2vw;
+}
+.list-item{
+	font-size: 1.05vw ;
+}
 
 
  th, td{
@@ -139,16 +157,16 @@ $backgroundColor: ghostwhite;
 
  .light-blue-column{
  	background-color: #337ab7;
- 	height: 100vh;
+ 	height: 65vh;
  	opacity: .7;
  	border-radius: 9vh;
  	
  	
  }
 
-  .light-green-column{
+  .light-green-span{
  	background-color: #62C370;
- 	height: 100vh;
+ 	width: 100vw;
  	opacity: .7;
  	border-radius: 9vh;
 
@@ -182,6 +200,12 @@ $backgroundColor: ghostwhite;
 	font-size: 2.4vh;
 	text-align: center;
 	// border-bottom: solid .1vw black;
+}
+
+.open-sans-font{
+	font-family: Open Sans;
+	font-size: 2.4vh;
+	font-weight: 600;
 }
 // Kill margins so that rows don't reach outside of their parent elements
  .row.kill-margin{
