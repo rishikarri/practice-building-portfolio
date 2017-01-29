@@ -112,21 +112,26 @@ html {
 }
 
 /* line 134, ../../compass/sass/styles.scss */
+.tallest-table-rows {
+  height: 10vh;
+}
+
+/* line 138, ../../compass/sass/styles.scss */
 .title-item {
   font-size: 1.2vw;
 }
 
-/* line 137, ../../compass/sass/styles.scss */
+/* line 141, ../../compass/sass/styles.scss */
 .list-item {
   font-size: 1.05vw;
 }
 
-/* line 141, ../../compass/sass/styles.scss */
+/* line 145, ../../compass/sass/styles.scss */
 .quote-text {
   font-size: 3.3vw;
 }
 
-/* line 146, ../../compass/sass/styles.scss */
+/* line 150, ../../compass/sass/styles.scss */
 .cursive-font, .quote-text {
   font-family: cursive;
   font-weight: 700;
@@ -134,7 +139,7 @@ html {
   text-align: center;
 }
 
-/* line 153, ../../compass/sass/styles.scss */
+/* line 157, ../../compass/sass/styles.scss */
 .light-blue-span {
   background-color: #337ab7;
   width: 100vw;
@@ -144,7 +149,7 @@ html {
   border: .2vw ridge darkgrey;
 }
 
-/* line 164, ../../compass/sass/styles.scss */
+/* line 168, ../../compass/sass/styles.scss */
 .light-green-span {
   background-color: #62C370;
   width: 100vw;
@@ -154,51 +159,52 @@ html {
   border: .2vw ridge darkgrey;
 }
 
-/* line 174, ../../compass/sass/styles.scss */
+/* line 178, ../../compass/sass/styles.scss */
 .padding-none {
   padding: 0px !important;
 }
 
-/* line 178, ../../compass/sass/styles.scss */
+/* line 182, ../../compass/sass/styles.scss */
 .center-text {
   text-align: center;
 }
 
-/* line 182, ../../compass/sass/styles.scss */
+/* line 186, ../../compass/sass/styles.scss */
 .align-left {
   text-align: left;
 }
 
-/* line 187, ../../compass/sass/styles.scss */
+/* line 191, ../../compass/sass/styles.scss */
 .data-entry {
   font-size: 1.4vw;
+  min-width: 17vw;
 }
 
-/* line 191, ../../compass/sass/styles.scss */
+/* line 196, ../../compass/sass/styles.scss */
 .spacer-column {
   min-width: 20vw;
 }
 
-/* line 198, ../../compass/sass/styles.scss */
+/* line 203, ../../compass/sass/styles.scss */
 .interests-image {
   height: 5vw;
 }
 
-/* line 201, ../../compass/sass/styles.scss */
+/* line 206, ../../compass/sass/styles.scss */
 .impact-font {
   font-family: impact;
   font-size: 2.4vw;
   text-align: center;
 }
 
-/* line 208, ../../compass/sass/styles.scss */
+/* line 213, ../../compass/sass/styles.scss */
 .open-sans-font {
   font-family: Open Sans;
   font-size: 1.8vw;
   font-weight: 600;
 }
 
-/* line 214, ../../compass/sass/styles.scss */
+/* line 219, ../../compass/sass/styles.scss */
 .row.kill-margin {
   margin-right: 0px;
   margin-left: 0px;

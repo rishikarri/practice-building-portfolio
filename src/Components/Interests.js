@@ -26,24 +26,24 @@ class Interests extends Component{
 							My Interests
 						</div>
 
-						<div className='col-xs-6 col-xs-offset-3 center-text padding-none'> 
+						<div className='col-xs-6 col-xs-offset-2 center-text padding-none'> 
 							<table className='margin-above'>
 
 								<tbody>
 
-									<tr className='taller-table-rows'>
+									<tr className='tallest-table-rows'>
 										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/tennis-ball.png' /> Tennis</td>
 										<td className='spacer-column data-entry'>&nbsp;</td>										
 										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/spanish-language-clipart.jpg' /> Spanish</td>
 									</tr>
 
-									<tr className='taller-table-rows'>
+									<tr className='tallest-table-rows'>
 										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/guitar-clipart.gif'/> Guitar</td>
 										<td className='data-entry'>&nbsp;</td>										
 										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/ukulele-icon.png' /> Ukulele</td>
 									</tr>	
 
-									<tr className='taller-table-rows'>
+									<tr className='tallest-table-rows'>
 										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/reading-clipart.png' /> Reading</td>
 										<td className='data-entry'>&nbsp;</td>										
 										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/running-clipart.png' /> Running</td>

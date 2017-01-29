@@ -131,6 +131,10 @@ $backgroundColor: white;
 	height: 5vh;
 }
 
+.tallest-table-rows{
+	height: 10vh;
+}
+
 .title-item{
 	font-size: 1.2vw;
 }
@@ -186,6 +190,7 @@ $backgroundColor: white;
 
  .data-entry{
  	font-size: 1.4vw;
+ 	min-width: 17vw;
  }
 
  .spacer-column{
