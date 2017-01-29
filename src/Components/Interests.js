@@ -26,12 +26,112 @@ class Interests extends Component{
 							My Interests
 						</div>
 
-						
+						<div className='col-xs-6 col-xs-offset-2 center-text padding-none'> 
+							<table className='margin-above'>
+								<thead>
+									<tr className='taller-table-rows'>
+										<td className='title-or-date'>Book Title:</td>										
+										<td className='title-or-date'>Author:</td>
+										<td className='title-or-date'>Completed On:</td>
+									</tr>
+								</thead>
+
+								<tbody>
+
+									<tr className='taller-table-rows'>
+										<td className='data-entry'>The Autobiography of Martin Luther King Jr. </td>
+										<td className='data-entry'>Martin Luther King Jr.</td>										
+										<td className='data-entry'>Currently Reading</td>										
+									</tr>
+
+									<tr className='taller-table-rows'>
+										<td className='data-entry'>A Thousand Splendid Suns</td>
+										<td className='data-entry'>Khaled Hosseini</td>																				
+										<td className='data-entry'>1/26/2017</td>										
+									</tr>
+
+									<tr className='taller-table-rows'>
+										<td className='data-entry'>8 Minute Meditation</td>
+										<td className='data-entry'>Victor Davich</td>																				
+										<td className='data-entry'>1/8/2017</td>										
+									</tr>		
+
+									<tr className='taller-table-rows'>
+										<td className='data-entry'>Everburn</td>
+										<td className='data-entry'>Robert Bunch</td>																																								
+										<td className='data-entry'>1/3/2017</td>										
+									</tr>		
+
+									<tr className='taller-table-rows'>
+										<td className='data-entry'>And The Mountains Echoed</td>
+										<td className='data-entry'>Khaled Hosseini</td>																																								
+										<td className='data-entry'>11/20/2016</td>										
+									</tr>		
+
+									<tr className='taller-table-rows'>
+										<td className='data-entry'>The One Thing</td>	
+										<td className='data-entry'>Gary W. Keller & Jay Papasan</td>																																																											
+										<td className='data-entry'>10/25/2016</td>										
+									</tr>
+								</tbody>
+							</table>
+						</div>						
 					</div>		
 
 					<div className="row kill-margin">
 						<div className='col-xs-12 cursive-font light-blue-span margin-above'> 
 							{whatIamReading}
+						</div>
+
+						<div className='col-xs-6 col-xs-offset-2 center-text padding-none'> 
+							<table className='margin-above'>
+								<thead>
+									<tr className='taller-table-rows'>
+										<td className='title-or-date'>Book Title:</td>										
+										<td className='title-or-date'>Author:</td>
+										<td className='title-or-date'>Completed On:</td>
+									</tr>
+								</thead>
+
+								<tbody>
+
+									<tr className='taller-table-rows'>
+										<td className='data-entry'>The Autobiography of Martin Luther King Jr. </td>
+										<td className='data-entry'>Martin Luther King Jr.</td>										
+										<td className='data-entry'>Currently Reading</td>										
+									</tr>
+
+									<tr className='taller-table-rows'>
+										<td className='data-entry'>A Thousand Splendid Suns</td>
+										<td className='data-entry'>Khaled Hosseini</td>																				
+										<td className='data-entry'>1/26/2017</td>										
+									</tr>
+
+									<tr className='taller-table-rows'>
+										<td className='data-entry'>8 Minute Meditation</td>
+										<td className='data-entry'>Victor Davich</td>																				
+										<td className='data-entry'>1/8/2017</td>										
+									</tr>		
+
+									<tr className='taller-table-rows'>
+										<td className='data-entry'>Everburn</td>
+										<td className='data-entry'>Robert Bunch</td>																																								
+										<td className='data-entry'>1/3/2017</td>										
+									</tr>		
+
+									<tr className='taller-table-rows'>
+										<td className='data-entry'>And The Mountains Echoed</td>
+										<td className='data-entry'>Khaled Hosseini</td>																																								
+										<td className='data-entry'>11/20/2016</td>										
+									</tr>		
+
+									<tr className='taller-table-rows'>
+										<td className='data-entry'>The One Thing</td>	
+										<td className='data-entry'>Gary W. Keller & Jay Papasan</td>																																																											
+										<td className='data-entry'>10/25/2016</td>										
+									</tr>
+								</tbody>
+							</table>
 						</div>
 					</div>
 				</div>

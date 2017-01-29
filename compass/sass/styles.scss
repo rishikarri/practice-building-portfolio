@@ -103,10 +103,19 @@ $backgroundColor: white;
 
  // styling for table in interests section
 
-.about-photo{
-	border-radius: 20%;	
-	
+ .title-or-date{
+	font-size: 2.2vw;
+ 	font-family: cursive;
+ 	// add this so that competed on stays on one line;
+ 	min-width: 20vw;
+ }
 
+ .float-me-right{
+ 	float: right;
+ }
+
+.about-photo{
+	border-radius: 20%;		
 	
 } 
 
@@ -118,6 +127,10 @@ $backgroundColor: white;
 	margin-top: 4vh;
 }
 
+.taller-table-rows{
+	height: 5vh;
+}
+
 .title-item{
 	font-size: 1.2vw;
 }
@@ -125,33 +138,15 @@ $backgroundColor: white;
 	font-size: 1.05vw ;
 }
 
-
- th, td{
- 	padding-left: 1.5vw !important;
- 	padding-right: 1.5vw !important;
- 	
- 	text-align: center;
- 	
- }
- th{
- 	border-bottom: solid grey .3vw;
- }
-
- 
-
-
-
-
-
  .quote-text{
  	@extend .cursive-font;
- 	font-size: 4.2vh !important;
+ 	font-size: 3.3vw;
  }
 
  .cursive-font{
  	font-family: cursive;
  	font-weight: 700;
- 	font-size: 3.5vh;
+ 	font-size: 3.5vw;
  	text-align: center;
  }
 
@@ -160,7 +155,7 @@ $backgroundColor: white;
  	width: 100vw;
  	opacity: .7;
  	color: black;
- 	border-radius: 9vh;
+ 	border-radius: 9vw;
  	border: .2vw ridge darkgrey;
  	
  	
@@ -171,13 +166,13 @@ $backgroundColor: white;
  	width: 100vw;
  	opacity: .7;
  	color: black;
- 	border-radius: 9vh;
+ 	border-radius: 9vw;
  	border: .2vw ridge darkgrey;
 
  }
 
  .padding-none{
- 	padding: 0px;
+ 	padding: 0px !important;
  }
 
  .center-text{
@@ -190,7 +185,7 @@ $backgroundColor: white;
  }
 
  .data-entry{
- 	font-size: 1.8vh;
+ 	font-size: 1.4vw;
  }
 
  .spacer-column{
@@ -201,7 +196,7 @@ $backgroundColor: white;
 // styling for headers of about me and interest
 .impact-font{
 	font-family: impact;
-	font-size: 2.4vh;
+	font-size: 2.4vw;
 	text-align: center;
 	// border-bottom: solid .1vw black;
 }
