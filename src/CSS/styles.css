@@ -209,3 +209,27 @@ html {
   margin-right: 0px;
   margin-left: 0px;
 }
+
+/* line 228, ../../compass/sass/styles.scss */
+.heading-spacer {
+  border-top: 2px solid #E7E7E7;
+  width: 50%;
+  margin-left: 0px;
+}
+
+/* line 234, ../../compass/sass/styles.scss */
+.heading-spacer-no-border {
+  border: none;
+}
+
+/* line 238, ../../compass/sass/styles.scss */
+.project-image {
+  width: 100%;
+  border-radius: 5vw;
+}
+
+/* line 244, ../../compass/sass/styles.scss */
+.project-image-word-worm {
+  width: 60%;
+  border-radius: 5vw;
+}

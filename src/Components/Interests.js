@@ -47,7 +47,13 @@ class Interests extends Component{
 										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/reading-clipart.png' /> Reading</td>
 										<td className='data-entry'>&nbsp;</td>										
 										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/running-clipart.png' /> Running</td>
-									</tr>											
+									</tr>
+
+									<tr className='tallest-table-rows'>
+										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/teaching-clipart.png' /> Teaching</td>
+										<td className='data-entry'>&nbsp;</td>										
+										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/plane-clipart.png'/> Traveling</td>
+									</tr>																						
 								</tbody>
 							</table>
 						</div>						
@@ -79,7 +85,7 @@ class Interests extends Component{
 									<tr className='taller-table-rows'>
 										<td className='data-entry'>A Thousand Splendid Suns</td>
 										<td className='data-entry'>Khaled Hosseini</td>																				
-										<td className='data-entry'>1/26/2017</td>										
+										<td className='data-entry'>1/27/2017</td>										
 									</tr>
 
 									<tr className='taller-table-rows'>
