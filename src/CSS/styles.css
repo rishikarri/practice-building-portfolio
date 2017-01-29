@@ -174,21 +174,31 @@ html {
   font-size: 1.4vw;
 }
 
-/* line 197, ../../compass/sass/styles.scss */
+/* line 191, ../../compass/sass/styles.scss */
+.spacer-column {
+  min-width: 20vw;
+}
+
+/* line 198, ../../compass/sass/styles.scss */
+.interests-image {
+  height: 5vw;
+}
+
+/* line 201, ../../compass/sass/styles.scss */
 .impact-font {
   font-family: impact;
   font-size: 2.4vw;
   text-align: center;
 }
 
-/* line 204, ../../compass/sass/styles.scss */
+/* line 208, ../../compass/sass/styles.scss */
 .open-sans-font {
   font-family: Open Sans;
   font-size: 1.8vw;
   font-weight: 600;
 }
 
-/* line 210, ../../compass/sass/styles.scss */
+/* line 214, ../../compass/sass/styles.scss */
 .row.kill-margin {
   margin-right: 0px;
   margin-left: 0px;

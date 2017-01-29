@@ -189,11 +189,15 @@ $backgroundColor: white;
  }
 
  .spacer-column{
-
+ 	min-width: 20vw;
  }
 
 
 // styling for headers of about me and interest
+
+.interests-image{
+	height: 5vw;
+}
 .impact-font{
 	font-family: impact;
 	font-size: 2.4vw;
