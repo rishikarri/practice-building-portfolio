@@ -41,7 +41,7 @@ class Project extends Component{
 							<h2>COMING SOON: WordWorms</h2>
 
 							<p>A word learning app for children. Users are able to take vocabulary quizzes, look up words, and much more!</p>
-							<p> HTML & CSS, Bootstrap, React.js & React-router, Javascript (ES-6), jQuery</p>
+							<p> HTML & CSS, Bootstrap, React.js & React-Router, Javascript (ES-6), jQuery</p>
 						</div>						
 					</div>
 

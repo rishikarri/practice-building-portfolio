@@ -7,7 +7,9 @@ class Contact extends Component{
 	render(){
 		return(
 			<div>
-				Contact
+
+				<i className="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
+
 			</div>
 		)
 	}
