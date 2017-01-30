@@ -1,5 +1,7 @@
 $backgroundColor: white;
-
+$myblue: #337ab7;
+$myGreen: #62C370;
+$myGrey: #EDF2F7;
 // @import "../../font-awesome-4.7.0/scss/icons.scss";
 
 
@@ -14,7 +16,10 @@ $backgroundColor: white;
  	height: 100vh; //want it to be 100% of whatever the viewport is 	
  	top: 0;
  	left: 0; 
- 	background-color: #F4F5FE;
+ 	// background-color: #F4F5FE;
+ 	// option one below
+ 	background-color: $myGrey;
+ 	// background-color: lightgrey;
  	overflow: hidden; //disable horizontal scroll
  	padding-top: 16vh;
 
@@ -31,7 +36,7 @@ $backgroundColor: white;
  	}
 
  	.nav-bar-link:hover{
- 		color: #62C370;
+ 		color: $myGreen;
  		// color: #798855;
  		text-decoration: none;
  	}
@@ -39,7 +44,7 @@ $backgroundColor: white;
  }
 
  .nav-bar-link.active-link{
- 	color: #62C370;
+ 	color: $myGreen;
  	// color: #869968;
  	text-decoration: none;
  }
@@ -166,7 +171,7 @@ $backgroundColor: white;
  }
 
   .light-green-span{
- 	background-color: #62C370;
+ 	background-color: $myGreen;
  	width: 100vw;
  	opacity: .7;
  	color: black;
@@ -226,7 +231,7 @@ $backgroundColor: white;
 //projects section
 
 .heading-spacer{
-	border-top: 2px solid #E7E7E7;
+	border-top: 2px solid lightgrey;
 	width: 50%;
 	margin-left: 0px;
 }
@@ -245,4 +250,28 @@ $backgroundColor: white;
 	width: 60%;
 	border-radius: 5vw;
 
+}
+
+
+//contact me section
+
+.contact-me-section{
+	border-top: 2px solid lightgrey;
+}
+
+.fa-linkedin-square{
+	color: $myblue;
+}
+
+.no-bullet{
+	padding-left: 0; 
+	margin-left: -5px;
+	list-style: none;
+	text-align: center;
+	
+}
+
+.give-me-some-space{
+	margin-left: 50px;
+	display: inline-block;
 }

@@ -1,18 +1,18 @@
-/* line 7, ../../compass/sass/styles.scss */
+/* line 9, ../../compass/sass/styles.scss */
 html {
   background-color: white;
 }
 
-/* line 13, ../../compass/sass/styles.scss */
+/* line 15, ../../compass/sass/styles.scss */
 .side-nav-bar {
   height: 100vh;
   top: 0;
   left: 0;
-  background-color: #F4F5FE;
+  background-color: #EDF2F7;
   overflow: hidden;
   padding-top: 16vh;
 }
-/* line 21, ../../compass/sass/styles.scss */
+/* line 26, ../../compass/sass/styles.scss */
 .side-nav-bar .nav-bar-link {
   margin-top: 4vh;
   display: block;
@@ -21,31 +21,31 @@ html {
   font-size: 3vw;
   color: #337ab7;
 }
-/* line 33, ../../compass/sass/styles.scss */
+/* line 38, ../../compass/sass/styles.scss */
 .side-nav-bar .nav-bar-link:hover {
   color: #62C370;
   text-decoration: none;
 }
 
-/* line 41, ../../compass/sass/styles.scss */
+/* line 46, ../../compass/sass/styles.scss */
 .nav-bar-link.active-link {
   color: #62C370;
   text-decoration: none;
 }
 
-/* line 49, ../../compass/sass/styles.scss */
+/* line 54, ../../compass/sass/styles.scss */
 .beast-text {
   font-weight: 800;
   font-size: 5vh;
   color: black;
 }
 
-/* line 58, ../../compass/sass/styles.scss */
+/* line 63, ../../compass/sass/styles.scss */
 .margin-left {
   margin-left: 4vw;
 }
 
-/* line 62, ../../compass/sass/styles.scss */
+/* line 67, ../../compass/sass/styles.scss */
 .mid-and-center {
   text-align: center;
   margin-top: 27vh;
@@ -53,12 +53,12 @@ html {
   opacity: 1;
 }
 
-/* line 70, ../../compass/sass/styles.scss */
+/* line 75, ../../compass/sass/styles.scss */
 .full-view-height {
   height: 100vh;
 }
 
-/* line 74, ../../compass/sass/styles.scss */
+/* line 79, ../../compass/sass/styles.scss */
 .background-image {
   background-image: url("../../public/Images/green-nature-image.jpg");
   background-repeat: no-repeat;
@@ -69,69 +69,69 @@ html {
   background-size: cover;
 }
 
-/* line 93, ../../compass/sass/styles.scss */
+/* line 98, ../../compass/sass/styles.scss */
 .col-xs-2.padding-none {
   padding: 0px;
 }
 
-/* line 97, ../../compass/sass/styles.scss */
+/* line 102, ../../compass/sass/styles.scss */
 .col-xs-10.padding-none {
   padding: 0px;
 }
 
-/* line 106, ../../compass/sass/styles.scss */
+/* line 111, ../../compass/sass/styles.scss */
 .title-or-date {
   font-size: 2.2vw;
   font-family: cursive;
   min-width: 20vw;
 }
 
-/* line 113, ../../compass/sass/styles.scss */
+/* line 118, ../../compass/sass/styles.scss */
 .float-me-right {
   float: right;
 }
 
-/* line 117, ../../compass/sass/styles.scss */
+/* line 122, ../../compass/sass/styles.scss */
 .about-photo {
   border-radius: 20%;
 }
 
-/* line 122, ../../compass/sass/styles.scss */
+/* line 127, ../../compass/sass/styles.scss */
 .company-photo {
   width: 10vw;
 }
 
-/* line 126, ../../compass/sass/styles.scss */
+/* line 131, ../../compass/sass/styles.scss */
 .margin-above {
   margin-top: 4vh;
 }
 
-/* line 130, ../../compass/sass/styles.scss */
+/* line 135, ../../compass/sass/styles.scss */
 .taller-table-rows {
   height: 5vh;
 }
 
-/* line 134, ../../compass/sass/styles.scss */
+/* line 139, ../../compass/sass/styles.scss */
 .tallest-table-rows {
   height: 10vh;
 }
 
-/* line 138, ../../compass/sass/styles.scss */
+/* line 143, ../../compass/sass/styles.scss */
 .title-item {
   font-size: 1.2vw;
 }
 
-/* line 141, ../../compass/sass/styles.scss */
+/* line 146, ../../compass/sass/styles.scss */
 .list-item {
   font-size: 1.05vw;
 }
 
-/* line 145, ../../compass/sass/styles.scss */
+/* line 150, ../../compass/sass/styles.scss */
 .quote-text {
   font-size: 3.3vw;
 }
 
-/* line 150, ../../compass/sass/styles.scss */
+/* line 155, ../../compass/sass/styles.scss */
 .cursive-font, .quote-text {
   font-family: cursive;
   font-weight: 700;
@@ -139,7 +139,7 @@ html {
   text-align: center;
 }
 
-/* line 157, ../../compass/sass/styles.scss */
+/* line 162, ../../compass/sass/styles.scss */
 .light-blue-span {
   background-color: #337ab7;
   width: 100vw;
@@ -149,7 +149,7 @@ html {
   border: .2vw ridge darkgrey;
 }
 
-/* line 168, ../../compass/sass/styles.scss */
+/* line 173, ../../compass/sass/styles.scss */
 .light-green-span {
   background-color: #62C370;
   width: 100vw;
@@ -159,77 +159,101 @@ html {
   border: .2vw ridge darkgrey;
 }
 
-/* line 178, ../../compass/sass/styles.scss */
+/* line 183, ../../compass/sass/styles.scss */
 .padding-none {
   padding: 0px !important;
 }
 
-/* line 182, ../../compass/sass/styles.scss */
+/* line 187, ../../compass/sass/styles.scss */
 .center-text {
   text-align: center;
 }
 
-/* line 186, ../../compass/sass/styles.scss */
+/* line 191, ../../compass/sass/styles.scss */
 .align-left {
   text-align: left;
 }
 
-/* line 191, ../../compass/sass/styles.scss */
+/* line 196, ../../compass/sass/styles.scss */
 .data-entry {
   font-size: 1.4vw;
   min-width: 17vw;
 }
 
-/* line 196, ../../compass/sass/styles.scss */
+/* line 201, ../../compass/sass/styles.scss */
 .spacer-column {
   min-width: 20vw;
 }
 
-/* line 203, ../../compass/sass/styles.scss */
+/* line 208, ../../compass/sass/styles.scss */
 .interests-image {
   height: 5vw;
 }
 
-/* line 206, ../../compass/sass/styles.scss */
+/* line 211, ../../compass/sass/styles.scss */
 .impact-font {
   font-family: impact;
   font-size: 2.4vw;
   text-align: center;
 }
 
-/* line 213, ../../compass/sass/styles.scss */
+/* line 218, ../../compass/sass/styles.scss */
 .open-sans-font {
   font-family: Open Sans;
   font-size: 1.8vw;
   font-weight: 600;
 }
 
-/* line 219, ../../compass/sass/styles.scss */
+/* line 224, ../../compass/sass/styles.scss */
 .row.kill-margin {
   margin-right: 0px;
   margin-left: 0px;
 }
 
-/* line 228, ../../compass/sass/styles.scss */
+/* line 233, ../../compass/sass/styles.scss */
 .heading-spacer {
-  border-top: 2px solid #E7E7E7;
+  border-top: 2px solid lightgrey;
   width: 50%;
   margin-left: 0px;
 }
 
-/* line 234, ../../compass/sass/styles.scss */
+/* line 239, ../../compass/sass/styles.scss */
 .heading-spacer-no-border {
   border: none;
 }
 
-/* line 238, ../../compass/sass/styles.scss */
+/* line 243, ../../compass/sass/styles.scss */
 .project-image {
   width: 100%;
   border-radius: 5vw;
 }
 
-/* line 244, ../../compass/sass/styles.scss */
+/* line 249, ../../compass/sass/styles.scss */
 .project-image-word-worm {
   width: 60%;
   border-radius: 5vw;
+}
+
+/* line 258, ../../compass/sass/styles.scss */
+.contact-me-section {
+  border-top: 2px solid lightgrey;
+}
+
+/* line 262, ../../compass/sass/styles.scss */
+.fa-linkedin-square {
+  color: #337ab7;
+}
+
+/* line 266, ../../compass/sass/styles.scss */
+.no-bullet {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 274, ../../compass/sass/styles.scss */
+.give-me-some-space {
+  margin-left: 50px;
+  display: inline-block;
 }
