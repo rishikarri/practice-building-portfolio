@@ -35,7 +35,7 @@ class Contact extends Component{
 						<div className='give-me-some-space'>
 							<ul className='no-bullet'>
 								<li>
-									<i className="fa fa-github-square fa-5x" aria-hidden="true"></i>
+									<a href='https://github.com/rishikarri'><i className="fa fa-github-square fa-5x" aria-hidden="true"></i></a>
 								</li>
 								<li>
 									Github
@@ -58,7 +58,7 @@ class Contact extends Component{
 						<div className='give-me-some-space'>
 							<ul className='no-bullet'>
 								<li>
-									<i className="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
+									<a href='https://www.linkedin.com/in/rishi-karri-35898465'> <i className="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
 								</li>
 								<li>
 									LinkedIn
@@ -78,3 +78,4 @@ class Contact extends Component{
 }
 
 export default Contact;
+
