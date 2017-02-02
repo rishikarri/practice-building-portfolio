@@ -8,21 +8,23 @@ class About extends Component{
 		return(
 			<div className="padding-none">
 				<div className='col-xs-12'>
-					<div className='col-xs-2 personal-photo-div'>
+					<div className='col-xs-12 col-sm-3 col-md-1 personal-photo-div'>
 						<img className='personal-photo' src='../../Images/professional-picture-of-me.jpeg'/>
 					</div>
 
-					<div className='col-xs-10 description-text'>
+					<div className='col-xs-12 col-sm-9 col-md-11 description-text'>
 						My name is Rishi. I love to code and have a passion for finance. 
-					</div>				
+					</div>	
+
+					<div className='col-xs-12 col-sm-9 col-md-11 description-text-smaller margin-above padding-right-zero'>
+					Prior to web development, I worked as an investment banker (Technology & Services Group) for <a href='http://www.rwbaird.com/investment-banking/'>Robert W. Baird.</a>
+					</div>			
 				</div>
 
 
 				
 
-				<div className='col-xs-12 description-text-smaller margin-above'>
-					Prior to web development, I worked as an investment banker (Technology & Services Group) for <a href='http://www.rwbaird.com/investment-banking/'>Robert W. Baird</a>
-				</div>
+				
 
 				{/* Education content starts here */}
 				<div className='col-xs-12 col-lg-6 margin-above center-text'>
@@ -49,16 +51,29 @@ class About extends Component{
 				<div className='col-xs-12 col-lg-6 margin-above center-text'>
 					<div className='about-me-header'>Skills, Tools, Qualifications </div>					
 
-					<div className='col-xs-12'> 
+					<div className='col-xs-12 margin-above'> 
 
 						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/html-logo.png' height="512" width="512" /></div>
-						<div className='col-md-2'><img src='../../public/Images/Icons/css3.png' height="650" width="650" /></div>
-						<div className='col-md-2'>hi</div>
-						<div className='col-md-2'>hi</div>
-						<div className='col-md-2'>hi</div>
-						<div className='col-md-2'>hi</div>
+						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/css3.png' /></div>
+						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/Bootstrap.png'/></div>
+						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/Sass.png' /></div>
+						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/javascript-logo.png' /></div>
+						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/jquery.png' /></div>
 
-					</div>
+					</div>	
+					<div className='col-xs-12 margin-above'> 	
+						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/React.png' /></div>
+						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/Redux.png' /></div>						
+						<div className='col-md-2'><img className='' src='../../Images/Icons/nodejs.png' /></div>
+						<div className='col-md-2'><img className='' src='../../Images/Icons/git.png' /></div>
+						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/github.png' /></div>
+						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/python.png' /></div>												
+						<div>&nbsp;</div>
+					</div>	
+						
+					{/*template div - <div className='col-md-2'><img className='skill-image' src='../../public/Images/Icons/React.png' /></div>*/}
+					
+					
 					
 				</div>				
 				
