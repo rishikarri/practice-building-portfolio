@@ -7,75 +7,63 @@ class About extends Component{
 	render(){
 		return(
 			<div className="padding-none">
-				<div className="row kill-margin">
-					{/*header section*/}
-					<div className="row kill-margin">				
-					
-						<div className="col-xs-12 quote-text"> 
-
-							<div className='col-xs-3'>
-								<div>
-									<img className='about-photo' src='../../Images/professional-picture-of-me.jpeg'/>
-								</div>
-							</div>
-
-							<div className='col-xs-9'>
-								My name is Rishi. I love to code and have a passion for finance.
-							</div>
-						</div>
+				<div className='col-xs-12'>
+					<div className='col-xs-2 personal-photo-div'>
+						<img className='personal-photo' src='../../Images/professional-picture-of-me.jpeg'/>
 					</div>
 
-					{/*Body section*/}
-					<div className="row kill-margin">
-						<div className='col-xs-12 cursive-font light-green-span margin-above'> 
-							Web Development Experience
-						</div>
-
-						<div>
-						<div className='col-xs-12 text-center margin-above'>
-							<img className='company-photo' src='../../Images/digitalcrafts-logo-1200-new.png' />	
-						</div>	
-							<ul>						
-								<ul className='title-item open-sans-font'>Full Stack Web Development Student</ul>
-								<ul>
-									<li className='list-item margin-left'> 4 month, immersive learning program </li>
-									<li className='list-item margin-left'> Curriculum includes:  </li>
-									<li className='list-item margin-left'> Hi </li>
-									<li className='list-item margin-left'> Hi </li>
-
-								</ul>
-							</ul>
-						</div>
-					</div>		
-
-					<div className="row kill-margin">
-						<div className='col-xs-12 cursive-font light-blue-span margin-above'> 
-							Finance Experience
-						</div>
-
-						<div>
-							<div className='col-xs-12 text-center margin-above'>							
-								<img className='company-photo' src='../../Images/BairdLogo.png'/>
-							</div>	
-								<ul>						
-									<ul className='title-item open-sans-font'>Investment Banking Analyst (Technology & Services)</ul>
-									<ul className='title-item open-sans-font'>Investment Banking Intern</ul>
-									<ul className='title-item open-sans-font'>Private Wealth Management Intern</ul>
-								</ul>
-							<div className='col-xs-12 text-center margin-above'>							
-								<img className='company-photo' src='../../Images/university-of-wisco-logo.png' />															
-							</div>
-							<div>
-								<ul>
-									<ul className='title-item open-sans-font'>Introduction to Investment Banking Teaching Assistant</ul>
-									<ul className='title-item open-sans-font'>B.B.A Degree (Finance)</ul>														
-								</ul>
-							</div>
-
-
-						</div>
-					</div>
+					<div className='col-xs-10 description-text'>
+						My name is Rishi. I love to code and have a passion for finance. 
+					</div>				
 				</div>
+
+
+				
+
+				<div className='col-xs-12 description-text-smaller margin-above'>
+					Prior to web development, I worked as an investment banker (Technology & Services Group) for <a href='http://www.rwbaird.com/investment-banking/'>Robert W. Baird</a>
+				</div>
+
+				{/* Education content starts here */}
+				<div className='col-xs-12 col-lg-6 margin-above center-text'>
+					<div className='about-me-header'>Education</div>
+
+					<div> <img className='about-me-company-photo margin-above' src='../../Images/digitalcrafts-logo-1200-new.png' height="80" width="200" /> </div>
+					{/* Text for dc description */}
+					<div> 
+						<ul className='margin-above'>
+							<li className='text-align-left'> 16 week immersive, full-time accelerated learning program </li>
+							<li className='text-align-left'> The program covers HTML & CSS, Bootstrap, Javascript, React.js, Node.js, SQL, Python, as well as several other tools in order to prepare students to work as Full Stack Developers and Software Engineers</li>
+							<li className='text-align-left'>Strong emphasis on efficient code design, version control, web design patterns, and analytical thinking</li>
+						</ul>						
+					</div>
+
+					<div> <img className='about-me-company-photo margin-above' src='../../Images/university-of-wisco-logo.png' /> </div>
+				{/* Text university of wisconsin description */}
+					<p> I graduated from the University of Wisconsin-Madison with B.B.A in Finance. Outside of the classroom, I spent time working as a teaching assistant, working as a bouncer at a local bar, and playing lots of tennis. </p>
+
+				</div>
+
+				{/* Skills, tools and qualifications starts here starts here */}
+
+				<div className='col-xs-12 col-lg-6 margin-above center-text'>
+					<div className='about-me-header'>Skills, Tools, Qualifications </div>					
+
+					<div className='col-xs-12'> 
+
+						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/html-logo.png' height="512" width="512" /></div>
+						<div className='col-md-2'><img src='../../public/Images/Icons/css3.png' height="650" width="650" /></div>
+						<div className='col-md-2'>hi</div>
+						<div className='col-md-2'>hi</div>
+						<div className='col-md-2'>hi</div>
+						<div className='col-md-2'>hi</div>
+
+					</div>
+					
+				</div>				
+				
+				
+
 			</div>
 
 
@@ -86,93 +74,3 @@ class About extends Component{
 }
 
 export default About;
-
-
-// <div className="row kill-margin">
-// 					<div className="col-xs-5 cursive-font">
-// 					Web Development Experience
-
-// 					</div>
-
-// 					<div className="col-xs-2">
-					
-// 					</div>
-
-// 					<div className="col-xs-5 cursive-font">
-// 					Finance Experience
-// 					</div>
-// 				</div>
-
-
-// 				<div className="row kill-margin">
-// 					<div className="col-xs-5 light-blue-column">
-
-// 						<div className='col-xs-12 text-center margin-above'>
-// 							<img className='company-photo' src='../../Images/digitalcrafts-logo-1200-new.png' />
-// 						</div>	
-
-// 						<div className='col-xs-12'>
-// 							<ul className='title-item'>Full Stack Web Development Student</ul>
-// 							<ul>						
-// 								<li className='list-item'> Hi </li>
-// 								<li className='list-item'> Hi </li>
-// 								<li className='list-item'> Hi </li>
-// 								<li className='list-item'> Hi </li>
-// 							</ul>
-
-// 							<ul className='title-item'>Technologies I am Learning:</ul>
-							
-// 							<ul>						
-// 								<li className='list-item'> icons </li>
-								
-								
-								
-// 							</ul>
-
-// 						</div>							
-					
-// 					</div>
-
-// 					<div className="col-xs-2">
-					
-// 					</div>
-
-// 					<div className="col-xs-5 light-green-column">
-
-					
-
-// 						<div className='col-xs-12 text-center margin-above'>
-// 							<img className='company-photo' src='../../Images/BairdLogo.png'/>
-// 						</div>	
-
-// 						<div className='col-xs-12'>
-// 							<ul className='title-item'>Positions Held:</ul>
-
-// 							<ul>
-// 								<li className='title-item'>Investment Banking Analyst (Technology & Services)</li>
-// 								<li className='title-item'>Investment Banking Intern</li>
-// 								<li className='title-item'>Private Wealth Management Intern</li>
-// 							</ul>
-							
-
-// 							<div className='col-xs-12 text-center margin-above'>
-// 								<img className='company-photo' src='../../Images/university-of-wisco-logo.png' />
-// 							</div>	
-
-// 							<ul className='title-item'>Introduction to Investment Banking Teaching Assistant</ul>
-// 							<ul className='title-item'>B.B.A Degree (Finance)</ul>														
-
-
-
-// 						</div>							
-					
-// 					</div>
-
-
-
-							
-// 				</div>
-
-				
-				
-// 			</div>

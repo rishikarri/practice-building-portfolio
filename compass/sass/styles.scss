@@ -2,6 +2,7 @@ $backgroundColor: white;
 $myblue: #337ab7;
 $myGreen: #62C370;
 $myGrey: #EDF2F7;
+$darkerGrey: darkgrey;
 // @import "../../font-awesome-4.7.0/scss/icons.scss";
 
 
@@ -22,7 +23,7 @@ $myGrey: #EDF2F7;
  	// background-color: lightgrey;
  	overflow: hidden; //disable horizontal scroll
  	padding-top: 16vh;
- 	border: 4px darkgrey ridge;
+ 	border-right: solid 1px $darkerGrey;
  	box-shadow: 15px;
 
  	.nav-bar-link{
@@ -107,6 +108,54 @@ $myGrey: #EDF2F7;
  }
 
  //styling for interest and about sections
+
+ // ************************************************************ABOUT SECTION******************************************
+ .skill-image{
+ 	height: 40px;
+ 	width: 40px;
+ }
+ .personal-photo-div{
+ 	text-align: center;
+ 	// background-color: grey;
+ 	// height: 300px;
+ }
+
+ .text-align-left{
+ 	text-align: left; 
+ }
+
+ .personal-photo{
+ 	text-align: center;
+ 	background-color: grey;
+ 	border-radius: 30%;
+ }
+
+ .about-me-company-photo{
+ 	height: 80px; 
+ 	width: 200px;
+ 	text-align: center;
+ }
+
+ .description-text{
+ 	font-family: cursive; 
+ 	font-size: 20px;
+ 	text-align: center;
+ 	margin: auto;
+ }
+
+ .description-text-smaller{
+ 	font-family: cursive; 
+ 	font-size: 16px;
+ 	text-align: center;
+ 	margin: auto;
+ }
+
+ .about-me-header{
+ 	font-weight: 700;
+ 	color: $myGreen;
+ 	text-align: center;
+ 	border: solid 1px black;
+ }
 
  // styling for table in interests section
 
