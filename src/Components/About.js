@@ -8,15 +8,15 @@ class About extends Component{
 		return(
 			<div className="padding-none">
 				<div className='col-xs-12'>
-					<div className='col-xs-12 col-sm-3 col-md-1 personal-photo-div'>
+					<div className='col-xs-12 col-sm-3 col-md-1 personal-photo-div col-lg-3'>
 						<img className='personal-photo' src='../../Images/professional-picture-of-me.jpeg'/>
 					</div>
 
-					<div className='col-xs-12 col-sm-9 col-md-11 description-text'>
+					<div className='col-xs-12 col-sm-9 col-md-11 col-lg-6 description-text'>
 						My name is Rishi. I love to code and have a passion for finance. 
 					</div>	
 
-					<div className='col-xs-12 col-sm-9 col-md-11 description-text-smaller margin-above padding-right-zero'>
+					<div className='col-xs-12 col-sm-9 col-md-11 col-lg-6 description-text-smaller margin-above padding-right-zero'>
 					Prior to web development, I worked as an investment banker (Technology & Services Group) for <a href='http://www.rwbaird.com/investment-banking/'>Robert W. Baird.</a>
 					</div>			
 				</div>

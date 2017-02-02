@@ -122,10 +122,10 @@ html {
 /* line 148, ../../compass/sass/styles.scss */
 .description-text-smaller {
   font-family: cursive;
-  font-size: 15px;
+  font-size: 14.5px;
   text-align: center;
   margin: auto;
-  padding-right: 0px;
+  padding-right: 0px !important;
 }
 
 /* line 156, ../../compass/sass/styles.scss */
