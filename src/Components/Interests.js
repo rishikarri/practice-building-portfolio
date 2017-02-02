@@ -14,7 +14,7 @@ class Interests extends Component{
 					{/*header section*/}
 					<div className="row kill-margin">				
 					
-						<div className="col-xs-12 quote-text"> 
+						<div className="col-xs-12 description-text"> 
 
 							{gandhiQuote}
 						</div>
@@ -22,37 +22,42 @@ class Interests extends Component{
 
 					{/*Body section*/}
 					<div className="row kill-margin">
-						<div className='col-xs-12 cursive-font light-green-span margin-above'> 
+				{/* Use same header styling as about me section */}
+						<hr className='heading-spacer-about-me'/>				
+
+						<div className='about-me-header'> 
 							My Interests
 						</div>
 
-						<div className='col-xs-6 col-xs-offset-2 center-text padding-none'> 
+						<hr className='heading-spacer-about-me'/>				
+
+						<div className='col-xs-6 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-4  center-text padding-none'> 
 							<table className='margin-above'>
 
 								<tbody>
 
 									<tr className='tallest-table-rows'>
-										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/tennis-ball.png' /> Tennis</td>
+										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/tennis-ball.png' /> <div>Tennis</div></td>
 										<td className='spacer-column data-entry'>&nbsp;</td>										
-										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/spanish-language-clipart.jpg' /> Spanish</td>
+										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/spanish-language-clipart.jpg' /> <div>Spanish</div></td>
 									</tr>
 
 									<tr className='tallest-table-rows'>
-										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/guitar-clipart.gif'/> Guitar</td>
+										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/guitar-clipart.gif'/> <div>Guitar</div></td>
 										<td className='data-entry'>&nbsp;</td>										
-										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/ukulele-icon.png' /> Ukulele</td>
+										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/ukulele-icon.png' /> <div>Ukulele</div></td>
 									</tr>	
 
 									<tr className='tallest-table-rows'>
-										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/reading-clipart.png' /> Reading</td>
+										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/reading-clipart.png' /> <div>Reading</div></td>
 										<td className='data-entry'>&nbsp;</td>										
-										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/running-clipart.png' /> Running</td>
+										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/running-clipart.png' /> <div>Running</div></td>
 									</tr>
 
 									<tr className='tallest-table-rows'>
-										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/teaching-clipart.png' /> Teaching</td>
+										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/teaching-clipart.png' /> <div>Teaching</div></td>
 										<td className='data-entry'>&nbsp;</td>										
-										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/plane-clipart.png'/> Traveling</td>
+										<td className='data-entry'><img className='interests-image' src='../../Images/Interests/plane-clipart.png'/> <div>Traveling</div></td>
 									</tr>																						
 								</tbody>
 							</table>
@@ -60,9 +65,13 @@ class Interests extends Component{
 					</div>		
 
 					<div className="row kill-margin">
-						<div className='col-xs-12 cursive-font light-blue-span margin-above'> 
+						<hr className='heading-spacer-about-me'/>				
+
+						<div className='about-me-header'> 
 							{whatIamReading}
 						</div>
+
+						<hr className='heading-spacer-about-me'/>				
 
 						<div className='col-xs-6 col-xs-offset-2 center-text padding-none'> 
 							<table className='margin-above'>
@@ -124,62 +133,3 @@ class Interests extends Component{
 export default Interests;
 
 
-
-// <div className="row kill-margin">
-// 					<div className="col-xs-5 cursive-font">
-// 					My Interests
-// 					</div>
-
-// 					<div className="col-xs-2">
-					
-// 					</div>
-
-// 					<div className="col-xs-5 cursive-font">
-// 						What I am reading
-// 					</div>
-// 				</div>
-
-
-// 				<div className="row kill-margin">
-// 					<div className="col-xs-5 light-blue-column">
-					
-// 					</div>
-
-// 					<div className="col-xs-2">
-					
-// 					</div>
-
-// 					<div className="col-xs-5 light-green-column">
-
-// 						<div className="col-xs-12 row kill-margin">
-
-// 							<table>					
-// 								<thead>
-// 									<tr>
-// 										<th> Book Title </th>
-// 										<th> Date Completed: </th>
-// 									</tr>
-// 								</thead>
-
-// 								<tbody>
-// 									<tr>
-// 										<td >&nbsp; </td>
-// 										<td >&nbsp;</td>
-// 									</tr>
-
-// 									<tr>
-// 										<td> Title </td>
-// 										<td>1/26/2017</td>
-// 									</tr>
-// 								</tbody>
-// 							</table>
-
-
-// 						</div>						
-
-						
-						
-// 					</div>
-// 				</div>
-
-// 				

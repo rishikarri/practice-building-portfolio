@@ -28,7 +28,11 @@ class About extends Component{
 
 				{/* Education content starts here */}
 				<div className='col-xs-12 col-lg-6 margin-above center-text'>
+					<hr className='heading-spacer-about-me'/>				
+					
 					<div className='about-me-header'>Education</div>
+					
+					<hr className='heading-spacer-about-me'/>				
 
 					<div> <img className='about-me-company-photo margin-above' src='../../Images/digitalcrafts-logo-1200-new.png' height="80" width="200" /> </div>
 					{/* Text for dc description */}
@@ -42,32 +46,90 @@ class About extends Component{
 
 					<div> <img className='about-me-company-photo margin-above' src='../../Images/university-of-wisco-logo.png' /> </div>
 				{/* Text university of wisconsin description */}
-					<p> I graduated from the University of Wisconsin-Madison with B.B.A in Finance. Outside of the classroom, I spent time working as a teaching assistant, working as a bouncer at a local bar, and playing lots of tennis. </p>
+					<p> I graduated from the University of Wisconsin-Madison with a B.B.A in Finance. Outside of the classroom, I spent time working as a teaching assistant, working as a bouncer at a local bar, and playing tennis on the club team. </p>
 
 				</div>
 
 				{/* Skills, tools and qualifications starts here starts here */}
 
 				<div className='col-xs-12 col-lg-6 margin-above center-text'>
-					<div className='about-me-header'>Skills, Tools, Qualifications </div>					
+					<hr className='heading-spacer-about-me'/>				
+
+					<div className='about-me-header'>Skills, Tools, Qualifications </div>	
+					
+					<hr className='heading-spacer-about-me'/>								
 
 					<div className='col-xs-12 margin-above'> 
 
-						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/html-logo.png' height="512" width="512" /></div>
-						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/css3.png' /></div>
-						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/Bootstrap.png'/></div>
-						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/Sass.png' /></div>
-						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/javascript-logo.png' /></div>
-						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/jquery.png' /></div>
+						<div className='col-xs-3'>
+
+							<img className='skill-image' src='../../Images/Icons/html-logo.png' height="512" width="512" />
+							<div>HTML</div>
+						</div>
+
+						<div className='col-xs-3'>
+							<img className='skill-image' src='../../Images/Icons/css3.png' />
+							<div>CSS</div>
+
+						</div>
+
+						<div className='col-xs-3'>
+							<img className='skill-image' src='../../Images/Icons/Bootstrap.png'/>
+							<div>Bootstrap</div>
+
+						</div>
+
+						<div className='col-xs-3'><img className='skill-image' src='../../Images/Icons/Sass.png' />
+							<div>Sass</div>
+						</div>
+					</div>
+
+
+					<div className='col-xs-12 margin-above'> 
+
+						<div className='col-xs-3'><img className='skill-image' src='../../Images/Icons/javascript-logo.png' />
+							<div>Javascript</div>
+						</div>
+
+						<div className='col-xs-3'>
+							<img className='skill-image' src='../../Images/Icons/jquery.png' />
+							<div>jQuery</div>
+						</div>
+
+						<div className='col-xs-3'>
+							<img className='skill-image' src='../../Images/Icons/React.png' />
+							<div>React.js</div>
+
+						</div>
+
+						<div className='col-xs-3'>
+							<img className='skill-image' src='../../Images/Icons/Redux.png' />
+							<div>Redux.js</div>
+						</div>						
 
 					</div>	
+
+
 					<div className='col-xs-12 margin-above'> 	
-						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/React.png' /></div>
-						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/Redux.png' /></div>						
-						<div className='col-md-2'><img className='' src='../../Images/Icons/nodejs.png' /></div>
-						<div className='col-md-2'><img className='' src='../../Images/Icons/git.png' /></div>
-						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/github.png' /></div>
-						<div className='col-md-2'><img className='skill-image' src='../../Images/Icons/python.png' /></div>												
+
+
+						<div className='col-xs-3'>
+							<img className='' src='../../Images/Icons/nodejs.png' />
+							<div>Node.js</div>
+						</div>
+
+						<div className='col-xs-3'><img className='' src='../../Images/Icons/git.png' />
+							<div>Git</div>
+						</div>
+
+						<div className='col-xs-3'>
+							<img className='skill-image' src='../../Images/Icons/github.png' />
+							<div>Github</div>
+						</div>
+						<div className='col-xs-3'>
+							<img className='skill-image' src='../../Images/Icons/python.png' />
+							<div>Python</div>
+						</div>												
 						<div>&nbsp;</div>
 					</div>	
 						

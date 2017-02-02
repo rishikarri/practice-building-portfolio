@@ -3,6 +3,7 @@ $myblue: #337ab7;
 $myGreen: #62C370;
 $myGrey: #EDF2F7;
 $darkerGrey: darkgrey;
+$HRBorder: darkgrey;
 // @import "../../font-awesome-4.7.0/scss/icons.scss";
 
 
@@ -110,6 +111,10 @@ $darkerGrey: darkgrey;
  //styling for interest and about sections
 
  // ************************************************************ABOUT SECTION******************************************
+
+ .heading-spacer-about-me{
+ 	border: solid 1px $HRBorder;
+ }
  .skill-image{
  	height: 40px;
  	width: 40px;
@@ -138,7 +143,7 @@ $darkerGrey: darkgrey;
 
  .description-text{
  	font-family: cursive; 
- 	font-size: 20px;
+ 	font-size: 24px;
  	text-align: center;
  	margin: auto;
  }
@@ -157,7 +162,6 @@ $darkerGrey: darkgrey;
  	font-weight: 700;
  	color: $myGreen;
  	text-align: center;
- 	border: solid 1px black;
  }
 
  // styling for table in interests section
@@ -248,8 +252,8 @@ $darkerGrey: darkgrey;
  }
 
  .data-entry{
- 	font-size: 1.4vw;
- 	min-width: 17vw;
+ 	// font-size: 1.4vw;
+ 	// min-width: 17vw;
  }
 
  .spacer-column{
@@ -260,7 +264,8 @@ $darkerGrey: darkgrey;
 // styling for headers of about me and interest
 
 .interests-image{
-	height: 5vw;
+	height: 80px; 
+	width: 80px;
 }
 .impact-font{
 	font-family: impact;
