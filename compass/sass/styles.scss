@@ -4,17 +4,17 @@
 // new
 $backgroundColor: white;
 $myblue: #68829e;
-$myGreen: #79B1E9;
-$myGreen: #F18175;
+$myGreen: #00cd00;
 $myGrey: #E1E1D9;
-$darkerGrey: darkgrey;
+$myGrey: #e3e3e3;
+$darkerGrey: #a9a9a9;
 $HRBorder: darkgrey;
 //
 
 // #F18175
 
  html{
- 	background-color: #96D5F5; 
+ 	// background-color: #96D5F5; 
 
  }
 
@@ -25,12 +25,14 @@ $HRBorder: darkgrey;
  	left: 0; 
  	// background-color: #F4F5FE;
  	// option one below
- 	background-color: $myGrey;
+ 	// background-color: $myGrey;
+ 	// background: linear-gradient(grey, $myGrey);
+ 	 background: linear-gradient($darkerGrey, white, $myblue);
  	// background-color: lightgrey;
  	overflow: hidden; //disable horizontal scroll
  	padding-top: 16vh;
- 	border-right: solid 1px $darkerGrey;
- 	box-shadow: 15px;
+ 	// border-right: solid 1px $darkerGrey;
+ 	// box-shadow: 15px;
 
  	.nav-bar-link{
  		margin-top: 4vh;
@@ -62,9 +64,9 @@ $HRBorder: darkgrey;
 
  .beast-text{
  	font-weight: 800;
- 	font-size: 5vh;
+ 	font-size: 32px;
  	// color: #595858;
- 	color: #96d5f5;
+ 	color: white;
  }
 
  //styling for positioning
@@ -86,17 +88,17 @@ $HRBorder: darkgrey;
  }
 
  .background-image{
- 	// background-image: url('../../public/Images/green-nature-image.jpg');
+ 	background-image: url('../../public/Images/green-nature-image.jpg');
  	
- 	// background-repeat: no-repeat;
- 	// height: 100%;
- 	// width: 100%;
- 	// opacity: .7;
- 	// //make it take up as much of the screen as it can
- 	// display: flex;
- 	// background-size: cover;
+ 	background-repeat: no-repeat;
+ 	height: 100%;
+ 	width: 100%;
+ 	opacity: .7;
+ 	//make it take up as much of the screen as it can
+ 	display: flex;
+ 	background-size: cover;
 
- 	// background-color: #96d5f5;
+ 	background-color: #96d5f5;
  	height: 100vh;
 
  	
