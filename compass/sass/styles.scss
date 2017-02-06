@@ -1,15 +1,19 @@
-$backgroundColor: white;
-$myblue: #337ab7;
-$myGreen: #62C370;
-$myGrey: #EDF2F7;
-$darkerGrey: darkgrey;
-$HRBorder: darkgrey;
+
 // @import "../../font-awesome-4.7.0/scss/icons.scss";
 
+// new
+$backgroundColor: white;
+$myblue: #68829e;
+$myGreen: #79B1E9;
+$myGreen: #F18175;
+$myGrey: #E1E1D9;
+$darkerGrey: darkgrey;
+$HRBorder: darkgrey;
 
+// #F18175
 
  html{
- 	background-color: $backgroundColor; 
+ 	background-color: #96D5F5; 
 
  }
 
@@ -59,7 +63,7 @@ $HRBorder: darkgrey;
  	font-weight: 800;
  	font-size: 5vh;
  	// color: #595858;
- 	color: black;
+ 	color: #96d5f5;
  }
 
  //styling for positioning
@@ -81,15 +85,18 @@ $HRBorder: darkgrey;
  }
 
  .background-image{
- 	background-image: url('../../public/Images/green-nature-image.jpg');
+ 	// background-image: url('../../public/Images/green-nature-image.jpg');
  	
- 	background-repeat: no-repeat;
- 	height: 100%;
- 	width: 100%;
- 	opacity: .7;
- 	//make it take up as much of the screen as it can
- 	display: flex;
- 	background-size: cover;
+ 	// background-repeat: no-repeat;
+ 	// height: 100%;
+ 	// width: 100%;
+ 	// opacity: .7;
+ 	// //make it take up as much of the screen as it can
+ 	// display: flex;
+ 	// background-size: cover;
+
+ 	// background-color: #96d5f5;
+ 	height: 100vh;
 
  	
 
@@ -167,7 +174,9 @@ $HRBorder: darkgrey;
  // styling for table in interests section
 
  .title-or-date{
-	font-size: 2.2vw;
+	// font-size: 2.2vw;
+	font-size: 22px;
+	text-decoration: underline;
  	font-family: cursive;
  	// add this so that competed on stays on one line;
  	min-width: 20vw;
