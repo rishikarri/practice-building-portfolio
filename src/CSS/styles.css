@@ -1,13 +1,14 @@
-/* line 22, ../../compass/sass/styles.scss */
+/* line 21, ../../compass/sass/styles.scss */
 .side-nav-bar {
   height: 100vh;
   top: 0;
   left: 0;
-  background: linear-gradient(#a9a9a9, white, #68829e);
+  background: linear-gradient(#a9a9a9, #e3e3e3, #e3e3e3, #DCDCDC, white, #68829e);
   overflow: hidden;
   padding-top: 16vh;
+  box-shadow: 80px;
 }
-/* line 37, ../../compass/sass/styles.scss */
+/* line 33, ../../compass/sass/styles.scss */
 .side-nav-bar .nav-bar-link {
   margin-top: 4vh;
   display: block;
@@ -16,19 +17,19 @@
   font-size: 3vw;
   color: #337ab7;
 }
-/* line 49, ../../compass/sass/styles.scss */
+/* line 45, ../../compass/sass/styles.scss */
 .side-nav-bar .nav-bar-link:hover {
   color: #00cd00;
   text-decoration: none;
 }
 
-/* line 57, ../../compass/sass/styles.scss */
+/* line 53, ../../compass/sass/styles.scss */
 .nav-bar-link.active-link {
   color: #00cd00;
   text-decoration: none;
 }
 
-/* line 65, ../../compass/sass/styles.scss */
+/* line 61, ../../compass/sass/styles.scss */
 .beast-text {
   font-weight: 800;
   font-size: 32px;

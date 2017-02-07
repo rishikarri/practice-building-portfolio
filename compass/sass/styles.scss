@@ -7,32 +7,28 @@ $myblue: #68829e;
 $myGreen: #00cd00;
 $myGrey: #E1E1D9;
 $myGrey: #e3e3e3;
+$lightGrey: #DCDCDC;
 $darkerGrey: #a9a9a9;
 $HRBorder: darkgrey;
 //
 
 // #F18175
 
- html{
- 	// background-color: #96D5F5; 
 
- }
+
 
 
  .side-nav-bar{
  	height: 100vh; //want it to be 100% of whatever the viewport is 	
  	top: 0;
  	left: 0; 
- 	// background-color: #F4F5FE;
- 	// option one below
- 	// background-color: $myGrey;
- 	// background: linear-gradient(grey, $myGrey);
- 	 background: linear-gradient($darkerGrey, white, $myblue);
- 	// background-color: lightgrey;
+ 	
+ 	 background: linear-gradient($darkerGrey, $myGrey, $myGrey, $lightGrey, white,  $myblue);
+ 	
  	overflow: hidden; //disable horizontal scroll
  	padding-top: 16vh;
- 	// border-right: solid 1px $darkerGrey;
- 	// box-shadow: 15px;
+ 	
+ 	box-shadow: 80px;
 
  	.nav-bar-link{
  		margin-top: 4vh;
@@ -68,6 +64,10 @@ $HRBorder: darkgrey;
  	// color: #595858;
  	color: white;
  }
+
+ //keyframes for beast text 
+
+ 
 
  //styling for positioning
 
