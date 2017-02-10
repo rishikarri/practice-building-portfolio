@@ -60,8 +60,8 @@ class Hi extends Component{
 
 
 
-						<div>Full-Stack Web Developer </div> 									
-						<div>Atlanta, Georgia </div> 									
+						<div className='weak-beast-text'>Full-Stack Web Developer </div> 									
+						<div className='weak-beast-text'>Atlanta, Georgia </div> 									
 					</div>
 				</div>				
 
