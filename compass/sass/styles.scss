@@ -69,6 +69,10 @@ $text: #4F4F4F;
  	color: $text;
  }
 
+.weakly-beast-text{
+ 	@extend .weak-beast-text;
+ 	margin-top: -30px;
+ }
  .weak-beast-text{
  	font-weight: 800;
     font-size: 24px;

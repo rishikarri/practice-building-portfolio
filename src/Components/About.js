@@ -17,7 +17,7 @@ class About extends Component{
 					</div>	
 
 					<div className='col-xs-12 col-sm-9 col-md-11 col-lg-6 description-text-smaller margin-above padding-right-zero'>
-					Prior to web development, I worked as an investment banker (Technology & Services Group) for <a href='http://www.rwbaird.com/investment-banking/'>Robert W. Baird.</a>
+					Prior to web development, I worked as an investment banker (Technology & Services Group) for <a target="_blank" href='http://www.rwbaird.com/investment-banking/'>Robert W. Baird.</a>
 					</div>			
 				</div>
 
@@ -37,11 +37,7 @@ class About extends Component{
 					<div> <img className='about-me-company-photo margin-above' src='../../Images/digitalcrafts-logo-1200-new.png' height="80" width="200" /> </div>
 					{/* Text for dc description */}
 					<div> 
-						<ul className='margin-above'>
-							<li className='text-align-left'> 16 week immersive, full-time accelerated learning program </li>
-							<li className='text-align-left'> The program covers HTML & CSS, Bootstrap, Javascript, React.js, Node.js, SQL, Python, as well as several other tools in order to prepare students to work as Full Stack Developers and Software Engineers</li>
-							<li className='text-align-left'>Strong emphasis on efficient code design, version control, web design patterns, and analytical thinking</li>
-						</ul>						
+						<p> DigitalCrafts is a sixteen week, immersive, full-time accelerated learning program. The goal of the program is to prepare its students to be full-stack developers and software engineers upon graduating. There is a strong emphasis on efficient code design, version control, web design patterns, and analytical thinking. Learn more <a target="_blank" href='http://www.digitalcrafts.com/'>here</a>!</p>						
 					</div>
 
 					<div> <img className='about-me-company-photo margin-above' src='../../Images/university-of-wisco-logo.png' /> </div>
