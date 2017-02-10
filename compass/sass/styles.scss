@@ -3,16 +3,16 @@
 
 // new
 $backgroundColor: white;
-$myblue: #68829e;
+$myblue: #00B7FF;
+// $myGreen: #00cd00;
 $myGreen: #00cd00;
-$myGrey: #E1E1D9;
-$myGrey: #e3e3e3;
+// $myGrey: #E1E1D9;
+$myGrey: #f8f8f8;
 $lightGrey: #DCDCDC;
 $darkerGrey: #a9a9a9;
 $HRBorder: darkgrey;
-//
+$mylightGrey: #e7e7e7;
 
-// #F18175
 
 
 
@@ -23,7 +23,9 @@ $HRBorder: darkgrey;
  	top: 0;
  	left: 0; 
  	
- 	 background: linear-gradient($darkerGrey, $myGrey, $myGrey, $lightGrey, white,  $myblue);
+ 	 // background: linear-gradient($darkerGrey, $myGrey, $myGrey, $lightGrey, white,  $myblue);
+ 	 background-color: $myGrey;
+ 	 border: solid 1px $mylightGrey;
  	
  	overflow: hidden; //disable horizontal scroll
  	padding-top: 16vh;
@@ -88,18 +90,18 @@ $HRBorder: darkgrey;
  }
 
  .background-image{
- 	background-image: url('../../public/Images/green-nature-image.jpg');
+ 	// background-image: url('../../public/Images/green-nature-image.jpg');
  	
- 	background-repeat: no-repeat;
- 	height: 100%;
- 	width: 100%;
- 	opacity: .7;
- 	//make it take up as much of the screen as it can
- 	display: flex;
- 	background-size: cover;
+ 	// background-repeat: no-repeat;
+ 	// height: 100%;
+ 	// width: 100%;
+ 	// opacity: .7;
+ 	// //make it take up as much of the screen as it can
+ 	// display: flex;
+ 	// background-size: cover;
 
- 	background-color: #96d5f5;
- 	height: 100vh;
+ 	// background-color: #96d5f5;
+ 	// height: 100vh;
 
  	
 
@@ -346,3 +348,193 @@ $HRBorder: darkgrey;
 	margin-left: 50px;
 	display: inline-block;
 }
+
+
+
+
+
+
+
+
+
+// ***************************************STYLING FOR COVER PAGE ANIMATION BELOW**************************************************
+html{
+	height: 100%;
+}
+body{
+	/* background: rgb(20, 20, 20); */
+	overflow: scroll;/* //if something is outside of the body, hide it rather than allow scrolling */
+	height: 100%;
+
+	
+}
+
+
+
+.animation-container{
+  position: relative;
+  display: block;
+  width: 100%;
+
+  height: 400px;
+  
+  overflow: hidden;
+}
+
+/* //hi block code */
+#hi-animation-block{
+	height: 25%;
+	width: 10%;
+  padding-bottom: 1%;
+  padding-left: .4%
+
+}
+
+#i-animation-block{
+
+	height: 100%;
+	width: 40%;
+	position: relative;
+	display: inline-block;
+}
+
+#i-1-block{
+	width: 26%;
+	height: 80%;
+    right: 10%;
+    top: 0%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+}
+
+
+
+
+
+
+#h-animation-block{
+	height: 100%;
+	width: 40%;
+	position: relative;
+	display: inline-block;
+	left: 15%;
+}
+#h-1Block{
+
+    width: 31%;
+    height: 80%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+  /* top: 20%; */
+}
+
+#h-2Block{
+    width: 90%;
+    height: 17%;
+    top: 27%;
+    left: 12%;
+    margin-top: -1.5%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+}
+
+#h-3Block{
+	width: 31%;
+	height: 80%;
+    right: -8%;
+    top: 0%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+}
+
+/* //regular animation blocks below */
+
+.rectangleAnimation {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* padding-top: 60%; */
+  overflow: hidden;
+}
+// .animation-block{
+//   margin-top: 5% !important;
+//   height: 25% !important;
+//   width: 2%;
+//   top: 10%;
+//   border-radius: 20px;
+//   position: absolute;
+// }
+.rectangleAnimation div {  
+  margin-top: 5%;
+  height: 25%; 
+  width: 2%;
+  top: 10%;
+  border-radius: 20px;
+  position: absolute;
+}
+
+/* animations below */
+
+
+
+#divAnimationBlock1 { animation: wave 17s  3.2s linear infinite;}
+#divAnimationBlock2 { animation: wave 17s  2.4s linear infinite;}
+#divAnimationBlock3 { animation: wave 17s  1.6s linear infinite;}
+#divAnimationBlock4 { animation: wave 17s   0.8s linear infinite;}
+
+#hi-animation-block { animation: wave 17s   0.1s linear infinite;}
+/* #divAnimationBlock2  { animation: wave 17s -16.227s linear infinite}
+#divAnimationBlock3  { animation: wave 17s -15.455s linear infinite;}
+#divAnimationBlock4 { animation: wave 17s -14.682s linear infinite;} */
+/* #divAnimationBlock5  { animation: wave 17s -13.909s linear infinite;} */
+#divAnimationBlock5  { animation: wave 17s -12.2s linear infinite;}
+#divAnimationBlock6  { animation: wave 17s -11.4s linear infinite;}
+#divAnimationBlock7  { animation: wave 17s -10.8s linear infinite}
+#divAnimationBlock8  { animation: wave 17s -10.0s linear infinite;}
+#divAnimationBlock9 { animation: wave 17s -9.2s linear infinite}
+#divAnimationBlock10 { animation: wave 17s  -8.4s linear infinite;}
+#divAnimationBlock11 { animation: wave 17s  -7.6s linear infinite}
+#divAnimationBlock12 { animation: wave 17s  -7.0s linear infinite;}
+#divAnimationBlock13 { animation: wave 17s  -6.2s linear infinite}
+#divAnimationBlock14 { animation: wave 17s  -5.6s linear infinite;}
+#divAnimationBlock15 { animation: wave 17s  -4.8s linear infinite;}
+#divAnimationBlock16 { animation: wave 17s  -4.2s linear infinite;}
+#divAnimationBlock17 { animation: wave 17s  -3.6s linear infinite;}
+#divAnimationBlock18 { animation: wave 17s  -2.8s linear infinite;}
+#divAnimationBlock19 { animation: wave 17s  -2.0s linear infinite;}
+
+
+#divAnimationBlock20 { animation: wave 17s  4.0s linear infinite;}
+/* #divAnimationBlock21 { animation: wave 17s  4.1s linear infinite;} */
+
+
+@keyframes wave {
+  0%   { left:-2%; background: #3B44D1; }
+  5%   { background: #9337FE; }
+  8%  { height:30%; margin-top: 1%; background: #C532FC; }
+  10%  { background: #F639F8; }
+  13%  { height:54%; margin-top: 4%; background: #F236C8; }
+  15%  { background: #FF2F8D; }
+  30%  { height:30%; margin-top: 1%; background: #EE3860; }
+  35%  { background: #DC5245; }
+  40%  { height:54%; margin-top: 4%; background: #F38643; }
+  45%  { background: #F8B435; }
+  50%  { height:30%; margin-top: 1%; background: #FAF444; }
+  55%  { background: #E0FF3B; }
+  60%  { height:54%; margin-top: 4%; background: #E1FF3C; }
+  65%  { background: #46F443; }
+  70%  { height:30%; margin-top:  1%; background: #54E67B; }
+  75%  { background: #4DF3A9; }
+  80%  { height:54%; margin-top: 4%; background: #3AF9DA; }
+  85%  { background: #36EBF4; }
+  90%  { height:30%; margin-top:  1%; background: #3DB3F3; }
+  95%  { background: #3C82F1; }
+  100% { height:54%; margin-top: 4%; left:100%; background: #5B38EE; }
+}
+
