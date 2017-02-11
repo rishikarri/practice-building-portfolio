@@ -70,6 +70,11 @@ $text: #4F4F4F;
  	color: $text;
  }
 
+.weakest-beast-text{
+  @extend .weak-beast-text;
+  font-size: 14px !important;
+ }
+
 .weakly-beast-text{
  	@extend .weak-beast-text;
  	margin-top: -30px;
