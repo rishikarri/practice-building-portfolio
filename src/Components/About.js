@@ -17,7 +17,7 @@ class About extends Component{
 					</div>	
 
 					<div className='col-xs-12 col-sm-9 col-md-11 col-lg-6 description-text-smaller margin-above padding-right-zero'>
-					Prior to web development, I worked as an investment banker (Technology & Services Group) for <a target="_blank" href='http://www.rwbaird.com/investment-banking/'>Robert W. Baird.</a>
+					Prior to web development, I worked as an investment banking analyst (Technology & Services Group) for <a target="_blank" href='http://www.rwbaird.com/investment-banking/'>Robert W. Baird.</a>
 					</div>			
 				</div>
 
@@ -126,6 +126,28 @@ class About extends Component{
 							<img className='skill-image' src='../../Images/Icons/python.png' />
 							<div>Python</div>
 						</div>												
+						<div>&nbsp;</div>
+					</div>	
+
+					<div className='col-xs-12 margin-above'> 	
+
+
+						<div className='col-xs-3'>
+							<img className='skill-image-only-hover' src='../../Images/Icons/sourceTree.png'/>
+							<div>Source Tree</div>
+						</div>
+
+						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/MySQL.png'/>
+							<div>MySQL</div>
+						</div>						
+
+						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftExcel.png'/>
+							<div>Excel</div>
+						</div>						
+
+						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftPowerPoint.png'/>
+							<div>PowerPoint</div>
+						</div>																		
 						<div>&nbsp;</div>
 					</div>	
 						

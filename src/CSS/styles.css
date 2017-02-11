@@ -1,4 +1,4 @@
-/* line 24, ../../compass/sass/styles.scss */
+/* line 23, ../../compass/sass/styles.scss */
 .side-nav-bar {
   height: 100vh;
   top: 0;
@@ -9,7 +9,7 @@
   padding-top: 16vh;
   box-shadow: 80px;
 }
-/* line 38, ../../compass/sass/styles.scss */
+/* line 37, ../../compass/sass/styles.scss */
 .side-nav-bar .nav-bar-link {
   margin-top: 4vh;
   display: block;
@@ -18,19 +18,19 @@
   font-size: 3vw;
   color: #337ab7;
 }
-/* line 50, ../../compass/sass/styles.scss */
+/* line 49, ../../compass/sass/styles.scss */
 .side-nav-bar .nav-bar-link:hover {
   color: #00cd00;
   text-decoration: none;
 }
 
-/* line 58, ../../compass/sass/styles.scss */
+/* line 57, ../../compass/sass/styles.scss */
 .nav-bar-link.active-link {
   color: #00cd00;
   text-decoration: none;
 }
 
-/* line 66, ../../compass/sass/styles.scss */
+/* line 65, ../../compass/sass/styles.scss */
 .beast-text {
   font-weight: 800;
   font-size: 50px;
@@ -39,12 +39,12 @@
   color: #4F4F4F;
 }
 
-/* line 74, ../../compass/sass/styles.scss */
+/* line 73, ../../compass/sass/styles.scss */
 .weakly-beast-text {
   margin-top: -30px;
 }
 
-/* line 78, ../../compass/sass/styles.scss */
+/* line 77, ../../compass/sass/styles.scss */
 .weak-beast-text, .weakly-beast-text, .about-me-header {
   font-weight: 800;
   font-size: 24px;
@@ -53,83 +53,83 @@
   text-align: center;
 }
 
-/* line 93, ../../compass/sass/styles.scss */
+/* line 92, ../../compass/sass/styles.scss */
 .margin-left {
   margin-left: 4vw;
 }
 
-/* line 97, ../../compass/sass/styles.scss */
+/* line 96, ../../compass/sass/styles.scss */
 .mid-and-center {
   text-align: center;
 }
 
-/* line 102, ../../compass/sass/styles.scss */
+/* line 101, ../../compass/sass/styles.scss */
 .full-view-height {
   height: 100vh;
 }
 
-/* line 128, ../../compass/sass/styles.scss */
+/* line 127, ../../compass/sass/styles.scss */
 .col-xs-2.padding-none {
   padding: 0px;
 }
 
-/* line 132, ../../compass/sass/styles.scss */
+/* line 131, ../../compass/sass/styles.scss */
 .col-xs-10.padding-none {
   padding: 0px;
 }
 
-/* line 141, ../../compass/sass/styles.scss */
+/* line 140, ../../compass/sass/styles.scss */
 .heading-spacer-about-me {
   border: solid 1px darkgrey;
 }
 
-/* line 144, ../../compass/sass/styles.scss */
+/* line 143, ../../compass/sass/styles.scss */
 .skill-image {
   height: 40px;
   width: 40px;
   transition: transform 1.9s ease-in-out;
 }
 
-/* line 150, ../../compass/sass/styles.scss */
+/* line 149, ../../compass/sass/styles.scss */
 .skill-image:hover {
   transform: rotateY(180deg);
 }
 
-/* line 154, ../../compass/sass/styles.scss */
+/* line 153, ../../compass/sass/styles.scss */
 .skill-image-only-hover {
   transition: transform 1.9s ease-in-out;
 }
 
-/* line 157, ../../compass/sass/styles.scss */
+/* line 156, ../../compass/sass/styles.scss */
 .skill-image-only-hover:hover {
   transform: rotateY(180deg);
 }
 
-/* line 160, ../../compass/sass/styles.scss */
+/* line 159, ../../compass/sass/styles.scss */
 .personal-photo-div {
   text-align: center;
 }
 
-/* line 166, ../../compass/sass/styles.scss */
+/* line 165, ../../compass/sass/styles.scss */
 .text-align-left {
   text-align: left;
 }
 
-/* line 170, ../../compass/sass/styles.scss */
+/* line 169, ../../compass/sass/styles.scss */
 .personal-photo {
   text-align: center;
   background-color: grey;
   border-radius: 30%;
 }
 
-/* line 176, ../../compass/sass/styles.scss */
+/* line 175, ../../compass/sass/styles.scss */
 .about-me-company-photo {
   height: 80px;
   width: 200px;
   text-align: center;
 }
 
-/* line 182, ../../compass/sass/styles.scss */
+/* line 181, ../../compass/sass/styles.scss */
 .description-text {
   font-family: cursive;
   font-size: 24px;
@@ -138,7 +138,7 @@
   color: #7A7A7A;
 }
 
-/* line 192, ../../compass/sass/styles.scss */
+/* line 191, ../../compass/sass/styles.scss */
 .description-text-smaller {
   font-family: cursive;
   font-size: 14.5px;
@@ -148,13 +148,13 @@
   color: #7A7A7A;
 }
 
-/* line 201, ../../compass/sass/styles.scss */
+/* line 200, ../../compass/sass/styles.scss */
 .about-me-header {
   color: #337ab7;
   text-align: center;
 }
 
-/* line 209, ../../compass/sass/styles.scss */
+/* line 208, ../../compass/sass/styles.scss */
 .title-or-date {
   font-size: 22px;
   text-decoration: underline;
@@ -162,52 +162,52 @@
   min-width: 20vw;
 }
 
-/* line 218, ../../compass/sass/styles.scss */
+/* line 217, ../../compass/sass/styles.scss */
 .float-me-right {
   float: right;
 }
 
-/* line 222, ../../compass/sass/styles.scss */
+/* line 221, ../../compass/sass/styles.scss */
 .about-photo {
   border-radius: 20%;
 }
 
-/* line 227, ../../compass/sass/styles.scss */
+/* line 226, ../../compass/sass/styles.scss */
 .company-photo {
   width: 10vw;
 }
 
-/* line 231, ../../compass/sass/styles.scss */
+/* line 230, ../../compass/sass/styles.scss */
 .margin-above {
   margin-top: 4vh;
 }
 
-/* line 235, ../../compass/sass/styles.scss */
+/* line 234, ../../compass/sass/styles.scss */
 .taller-table-rows {
   height: 5vh;
 }
 
-/* line 239, ../../compass/sass/styles.scss */
+/* line 238, ../../compass/sass/styles.scss */
 .tallest-table-rows {
   height: 10vh;
 }
 
-/* line 243, ../../compass/sass/styles.scss */
+/* line 242, ../../compass/sass/styles.scss */
 .title-item {
   font-size: 1.2vw;
 }
 
-/* line 246, ../../compass/sass/styles.scss */
+/* line 245, ../../compass/sass/styles.scss */
 .list-item {
   font-size: 1.05vw;
 }
 
-/* line 250, ../../compass/sass/styles.scss */
+/* line 249, ../../compass/sass/styles.scss */
 .quote-text {
   font-size: 3.3vw;
 }
 
-/* line 255, ../../compass/sass/styles.scss */
+/* line 254, ../../compass/sass/styles.scss */
 .cursive-font, .quote-text {
   font-family: cursive;
   font-weight: 700;
@@ -215,7 +215,7 @@
   text-align: center;
 }
 
-/* line 262, ../../compass/sass/styles.scss */
+/* line 261, ../../compass/sass/styles.scss */
 .light-blue-span {
   background-color: #337ab7;
   width: 100vw;
@@ -225,7 +225,7 @@
   border: .2vw ridge darkgrey;
 }
 
-/* line 273, ../../compass/sass/styles.scss */
+/* line 272, ../../compass/sass/styles.scss */
 .light-green-span {
   background-color: #00cd00;
   width: 100vw;
@@ -235,87 +235,87 @@
   border: .2vw ridge darkgrey;
 }
 
-/* line 283, ../../compass/sass/styles.scss */
+/* line 282, ../../compass/sass/styles.scss */
 .padding-none {
   padding: 0px !important;
 }
 
-/* line 287, ../../compass/sass/styles.scss */
+/* line 286, ../../compass/sass/styles.scss */
 .center-text {
   text-align: center;
 }
 
-/* line 291, ../../compass/sass/styles.scss */
+/* line 290, ../../compass/sass/styles.scss */
 .align-left {
   text-align: left;
 }
 
-/* line 301, ../../compass/sass/styles.scss */
+/* line 300, ../../compass/sass/styles.scss */
 .spacer-column {
   min-width: 20vw;
 }
 
-/* line 308, ../../compass/sass/styles.scss */
+/* line 307, ../../compass/sass/styles.scss */
 .interests-image {
   height: 80px;
   width: 80px;
 }
 
-/* line 312, ../../compass/sass/styles.scss */
+/* line 311, ../../compass/sass/styles.scss */
 .impact-font {
   font-family: impact;
   font-size: 2.4vw;
   text-align: center;
 }
 
-/* line 319, ../../compass/sass/styles.scss */
+/* line 318, ../../compass/sass/styles.scss */
 .open-sans-font {
   font-family: Open Sans;
   font-size: 1.8vw;
   font-weight: 600;
 }
 
-/* line 325, ../../compass/sass/styles.scss */
+/* line 324, ../../compass/sass/styles.scss */
 .row.kill-margin {
   margin-right: 0px;
   margin-left: 0px;
 }
 
-/* line 334, ../../compass/sass/styles.scss */
+/* line 333, ../../compass/sass/styles.scss */
 .heading-spacer {
   border-top: 2px solid lightgrey;
   width: 50%;
   margin-left: 0px;
 }
 
-/* line 340, ../../compass/sass/styles.scss */
+/* line 339, ../../compass/sass/styles.scss */
 .heading-spacer-no-border {
   border: none;
 }
 
-/* line 344, ../../compass/sass/styles.scss */
+/* line 343, ../../compass/sass/styles.scss */
 .project-image {
   width: 100%;
   border-radius: 5vw;
 }
 
-/* line 350, ../../compass/sass/styles.scss */
+/* line 349, ../../compass/sass/styles.scss */
 .project-image-word-worm {
   width: 60%;
   border-radius: 5vw;
 }
 
-/* line 359, ../../compass/sass/styles.scss */
+/* line 358, ../../compass/sass/styles.scss */
 .contact-me-section {
   border-top: 2px solid lightgrey;
 }
 
-/* line 363, ../../compass/sass/styles.scss */
+/* line 362, ../../compass/sass/styles.scss */
 .fa-linkedin-square {
   color: #337ab7;
 }
 
-/* line 367, ../../compass/sass/styles.scss */
+/* line 366, ../../compass/sass/styles.scss */
 .no-bullet {
   padding-left: 0;
   margin-left: -5px;
@@ -323,18 +323,18 @@
   text-align: center;
 }
 
-/* line 375, ../../compass/sass/styles.scss */
+/* line 374, ../../compass/sass/styles.scss */
 .give-me-some-space {
   margin-left: 50px;
   display: inline-block;
 }
 
-/* line 389, ../../compass/sass/styles.scss */
+/* line 388, ../../compass/sass/styles.scss */
 html {
   height: 100%;
 }
 
-/* line 392, ../../compass/sass/styles.scss */
+/* line 391, ../../compass/sass/styles.scss */
 body {
   /* background: rgb(20, 20, 20); */
   overflow: scroll;
@@ -342,7 +342,7 @@ body {
   height: 100%;
 }
 
-/* line 402, ../../compass/sass/styles.scss */
+/* line 401, ../../compass/sass/styles.scss */
 .animation-container {
   position: relative;
   display: block;
@@ -352,7 +352,7 @@ body {
 }
 
 /* //hi block code */
-/* line 413, ../../compass/sass/styles.scss */
+/* line 412, ../../compass/sass/styles.scss */
 #hi-animation-block {
   height: 25%;
   width: 10%;
@@ -360,7 +360,7 @@ body {
   padding-left: 0.4%;
 }
 
-/* line 421, ../../compass/sass/styles.scss */
+/* line 420, ../../compass/sass/styles.scss */
 #i-animation-block {
   height: 100%;
   width: 40%;
@@ -368,7 +368,7 @@ body {
   display: inline-block;
 }
 
-/* line 429, ../../compass/sass/styles.scss */
+/* line 428, ../../compass/sass/styles.scss */
 #i-1-block {
   width: 26%;
   height: 80%;
@@ -379,7 +379,7 @@ body {
   position: absolute;
 }
 
-/* line 444, ../../compass/sass/styles.scss */
+/* line 443, ../../compass/sass/styles.scss */
 #h-animation-block {
   height: 100%;
   width: 40%;
@@ -388,7 +388,7 @@ body {
   left: 15%;
 }
 
-/* line 451, ../../compass/sass/styles.scss */
+/* line 450, ../../compass/sass/styles.scss */
 #h-1Block {
   width: 31%;
   height: 80%;
@@ -399,7 +399,7 @@ body {
   /* top: 20%; */
 }
 
-/* line 462, ../../compass/sass/styles.scss */
+/* line 461, ../../compass/sass/styles.scss */
 #h-2Block {
   width: 90%;
   height: 17%;
@@ -411,7 +411,7 @@ body {
   position: absolute;
 }
 
-/* line 473, ../../compass/sass/styles.scss */
+/* line 472, ../../compass/sass/styles.scss */
 #h-3Block {
   width: 31%;
   height: 80%;
@@ -423,7 +423,7 @@ body {
 }
 
 /* //regular animation blocks below */
-/* line 485, ../../compass/sass/styles.scss */
+/* line 484, ../../compass/sass/styles.scss */
 .rectangleAnimation {
   position: relative;
   display: block;
@@ -433,7 +433,7 @@ body {
   overflow: hidden;
 }
 
-/* line 501, ../../compass/sass/styles.scss */
+/* line 500, ../../compass/sass/styles.scss */
 .rectangleAnimation div {
   margin-top: 5%;
   height: 25%;
@@ -444,27 +444,27 @@ body {
 }
 
 /* animations below */
-/* line 514, ../../compass/sass/styles.scss */
+/* line 513, ../../compass/sass/styles.scss */
 #divAnimationBlock1 {
   animation: wave 17s  3.2s linear infinite;
 }
 
-/* line 515, ../../compass/sass/styles.scss */
+/* line 514, ../../compass/sass/styles.scss */
 #divAnimationBlock2 {
   animation: wave 17s  2.4s linear infinite;
 }
 
-/* line 516, ../../compass/sass/styles.scss */
+/* line 515, ../../compass/sass/styles.scss */
 #divAnimationBlock3 {
   animation: wave 17s  1.6s linear infinite;
 }
 
-/* line 517, ../../compass/sass/styles.scss */
+/* line 516, ../../compass/sass/styles.scss */
 #divAnimationBlock4 {
   animation: wave 17s   0.8s linear infinite;
 }
 
-/* line 519, ../../compass/sass/styles.scss */
+/* line 518, ../../compass/sass/styles.scss */
 #hi-animation-block {
   animation: wave 17s   0.1s linear infinite;
 }
@@ -473,82 +473,82 @@ body {
 #divAnimationBlock3  { animation: wave 17s -15.455s linear infinite;}
 #divAnimationBlock4 { animation: wave 17s -14.682s linear infinite;} */
 /* #divAnimationBlock5  { animation: wave 17s -13.909s linear infinite;} */
-/* line 524, ../../compass/sass/styles.scss */
+/* line 523, ../../compass/sass/styles.scss */
 #divAnimationBlock5 {
   animation: wave 17s -12.2s linear infinite;
 }
 
-/* line 525, ../../compass/sass/styles.scss */
+/* line 524, ../../compass/sass/styles.scss */
 #divAnimationBlock6 {
   animation: wave 17s -11.4s linear infinite;
 }
 
-/* line 526, ../../compass/sass/styles.scss */
+/* line 525, ../../compass/sass/styles.scss */
 #divAnimationBlock7 {
   animation: wave 17s -10.8s linear infinite;
 }
 
-/* line 527, ../../compass/sass/styles.scss */
+/* line 526, ../../compass/sass/styles.scss */
 #divAnimationBlock8 {
   animation: wave 17s -10.0s linear infinite;
 }
 
-/* line 528, ../../compass/sass/styles.scss */
+/* line 527, ../../compass/sass/styles.scss */
 #divAnimationBlock9 {
   animation: wave 17s -9.2s linear infinite;
 }
 
-/* line 529, ../../compass/sass/styles.scss */
+/* line 528, ../../compass/sass/styles.scss */
 #divAnimationBlock10 {
   animation: wave 17s  -8.4s linear infinite;
 }
 
-/* line 530, ../../compass/sass/styles.scss */
+/* line 529, ../../compass/sass/styles.scss */
 #divAnimationBlock11 {
   animation: wave 17s  -7.6s linear infinite;
 }
 
-/* line 531, ../../compass/sass/styles.scss */
+/* line 530, ../../compass/sass/styles.scss */
 #divAnimationBlock12 {
   animation: wave 17s  -7.0s linear infinite;
 }
 
-/* line 532, ../../compass/sass/styles.scss */
+/* line 531, ../../compass/sass/styles.scss */
 #divAnimationBlock13 {
   animation: wave 17s  -6.2s linear infinite;
 }
 
-/* line 533, ../../compass/sass/styles.scss */
+/* line 532, ../../compass/sass/styles.scss */
 #divAnimationBlock14 {
   animation: wave 17s  -5.6s linear infinite;
 }
 
-/* line 534, ../../compass/sass/styles.scss */
+/* line 533, ../../compass/sass/styles.scss */
 #divAnimationBlock15 {
   animation: wave 17s  -4.8s linear infinite;
 }
 
-/* line 535, ../../compass/sass/styles.scss */
+/* line 534, ../../compass/sass/styles.scss */
 #divAnimationBlock16 {
   animation: wave 17s  -4.2s linear infinite;
 }
 
-/* line 536, ../../compass/sass/styles.scss */
+/* line 535, ../../compass/sass/styles.scss */
 #divAnimationBlock17 {
   animation: wave 17s  -3.6s linear infinite;
 }
 
-/* line 537, ../../compass/sass/styles.scss */
+/* line 536, ../../compass/sass/styles.scss */
 #divAnimationBlock18 {
   animation: wave 17s  -2.8s linear infinite;
 }
 
-/* line 538, ../../compass/sass/styles.scss */
+/* line 537, ../../compass/sass/styles.scss */
 #divAnimationBlock19 {
   animation: wave 17s  -2.0s linear infinite;
 }
 
-/* line 541, ../../compass/sass/styles.scss */
+/* line 540, ../../compass/sass/styles.scss */
 #divAnimationBlock20 {
   animation: wave 17s  4.0s linear infinite;
 }
