@@ -307,6 +307,12 @@ $text: #4F4F4F;
 .interests-image{
 	height: 80px; 
 	width: 80px;
+  //spin on hover
+  transition: transform 0.8s ease-in-out; 
+}
+
+.interests-image:hover{
+  transform: rotate(360deg);
 }
 .impact-font{
 	font-family: impact;
