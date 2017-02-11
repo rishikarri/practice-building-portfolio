@@ -9,7 +9,7 @@ class Interests extends Component{
 		var gandhiQuote = '“Live as if you were to die tomorrow. Learn as if you were to live forever.” —Gandhi';
 		var whatIamReading = "What I'm reading"
 		return(
-			<div className="padding-none">
+			<div className="padding-none col-xs-12">
 				<div className='col-xs-12'>			
 					<div className="row kill-margin">
 						{/*header section*/}

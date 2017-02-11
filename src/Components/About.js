@@ -75,7 +75,7 @@ class About extends Component{
 
 						</div>
 
-						<div className='col-xs-3'><img className='skill-image' src='../../Images/Icons/Sass.png' />
+						<div className='col-xs-3 skill-image-only-hover'><img className='skill-image' src='../../Images/Icons/Sass.png' />
 							<div>Sass</div>
 						</div>
 					</div>
@@ -110,11 +110,11 @@ class About extends Component{
 
 
 						<div className='col-xs-3'>
-							<img className='' src='../../Images/Icons/nodejs.png' />
+							<img className='skill-image-only-hover' src='../../Images/Icons/nodejs.png' />
 							<div>Node.js</div>
 						</div>
 
-						<div className='col-xs-3'><img className='' src='../../Images/Icons/git.png' />
+						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/git.png' />
 							<div>Git</div>
 						</div>
 

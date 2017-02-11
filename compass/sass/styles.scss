@@ -144,6 +144,18 @@ $text: #4F4F4F;
  .skill-image{
  	height: 40px;
  	width: 40px;
+  transition: transform 1.9s ease-in-out;
+ }
+
+ .skill-image:hover{
+  transform: rotateY(180deg);
+ }
+
+ .skill-image-only-hover{
+  transition: transform 1.9s ease-in-out;
+ }
+ .skill-image-only-hover:hover{
+  transform: rotateY(180deg);
  }
  .personal-photo-div{
  	text-align: center;
