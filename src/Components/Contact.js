@@ -14,7 +14,7 @@ class Contact extends Component{
 					</div>
 
 					<div className='quote-text'>
-						Learn more / Say Hi:
+						Learn more / Contact Me:
 					</div>					
 
 					<div className='col-xs-6 col-xs-offset-3 contact-me-section margin-above'>

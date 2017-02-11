@@ -3,7 +3,9 @@
 
 // new
 $backgroundColor: white;
-$myblue: #00B7FF;
+
+$myLightBlue: #00B7FF;
+$myBlue: #337ab7;
 // $myGreen: #00cd00;
 $myGreen: #00cd00;
 // $myGrey: #E1E1D9;
@@ -170,6 +172,7 @@ $text: #4F4F4F;
  	font-size: 24px;
  	text-align: center;
  	margin: auto;
+ 	color: #7A7A7A;
  }
 
 
@@ -180,11 +183,12 @@ $text: #4F4F4F;
  	text-align: center;
  	margin: auto;
  	padding-right: 0px !important;
+ 	color: #7A7A7A;
  }
 
  .about-me-header{
- 	font-weight: 700;
- 	color: $myGreen;
+ 	@extend .weak-beast-text;
+ 	color: $myBlue;
  	text-align: center;
  }
 
@@ -345,7 +349,7 @@ $text: #4F4F4F;
 }
 
 .fa-linkedin-square{
-	color: $myblue;
+	color: $myBlue;
 }
 
 .no-bullet{

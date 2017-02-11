@@ -13,7 +13,7 @@ class Project extends Component{
 						<hr className='heading-spacer'/>
 
 						<div className='section-heading'>
-							<h2>COMING SOON: Survivor</h2>
+							<h2>COMING SOON: Village Savior</h2>
 							<p>Monsters and thieves are about to attack your village. Please fight them off as long as you can in order to give the villagers time to escape! Be careful! If your health falls to 0 you must retreat!</p>
 							<p> HTML & CSS, Javascript (Code is intentionally written without frameworks)</p>
 						</div>
