@@ -9,12 +9,12 @@ class Project extends Component{
 			<div>
 				<div className='row kill-margin'>
 
-					<div className='col-xs-5 col-xs-offset-1'>
+					<div className='col-xs-12 col-sm-5 col-sm-offset-1'>
 						<hr className='heading-spacer'/>
 
 						<div className='section-heading'>
 							<h2>COMING SOON: Village Savior</h2>
-							<p>Monsters and thieves are about to attack your village. Please fight them off as long as you can in order to give the villagers time to escape! Be careful! If your health falls to 0 you must retreat!</p>
+							<p>Monsters and thieves are about to attack your village. Stave them off as long as you can in order to give the villagers time to escape! Be careful! If your health falls to 0 you must retreat!</p>
 							<p> HTML & CSS, Javascript (Code is intentionally written without frameworks)</p>
 
 							<div className='repo-demo-links'>
@@ -24,7 +24,7 @@ class Project extends Component{
 						</div>
 					</div>
 
-					<div className='col-xs-5'>						
+					<div className='col-xs-12 col-sm-5'>						
 						<img className='project-image margin-above' src='../../Images/Projects-Page/survivor-screenshot.png' />
 					</div>
 
@@ -33,11 +33,11 @@ class Project extends Component{
 
 				<div className='row kill-margin'>
 
-					<div className='col-xs-5 col-xs-offset-1'>
+					<div className='col-xs-12 hide-word-worm col-sm-5 col-sm-offset-1'>
 						<img className='project-image-word-worm margin-above' src='../../Images/Projects-Page/BookWorm.png' />
 					</div>
 
-					<div className='col-xs-5'>						
+					<div className='col-xs-12 col-sm-5'>						
 						
 
 						<hr className='heading-spacer'/>
@@ -53,6 +53,10 @@ class Project extends Component{
 								<a target="_blank" href='https://github.com/CaseyTM/WordWorms'><button> Repository</button></a>
 							</div>							
 						</div>						
+					</div>
+
+					<div className='col-xs-12 show-word-worm col-sm-5 col-sm-offset-1'>
+						<img className='project-image-word-worm margin-above' src='../../Images/Projects-Page/BookWorm.png' />
 					</div>
 
 

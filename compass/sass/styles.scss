@@ -29,7 +29,7 @@ $text: #4F4F4F;
   }
 
   .nav-bar-link-top{
-    font-size: 3.0vw;
+    font-size: 2.7vw;
   }
   
 }
@@ -37,6 +37,15 @@ $text: #4F4F4F;
 @media only screen and (max-width: 768px){
   .nav-bar-link-top{
     font-size: 4.0vw;
+  }
+
+  // hide top word worm depending on zoom size
+  .hide-word-worm{
+    display: none;
+  }
+  .show-word-worm{
+    display: block !important;
+
   }
 }
 
@@ -57,6 +66,7 @@ $text: #4F4F4F;
 .nav-bar-link-top{
   // font-size: 4.2vw;
   color: $myBlue;
+  font-weight: 200;
 
 }
 
@@ -71,6 +81,12 @@ $text: #4F4F4F;
   // color: #869968;
   text-decoration: none;
 }
+
+.nav-bar-link-top.active-link{
+  color: $myGreen;
+  // color: #869968;
+  text-decoration: none;
+ }
 
 //move the first link over to the right a bit
 .nav-bar-link-top-first{
@@ -425,6 +441,10 @@ $text: #4F4F4F;
 	width: 60%;
 	border-radius: 5vw;
 
+}
+
+.show-word-worm{
+  display: none;
 }
 
 
