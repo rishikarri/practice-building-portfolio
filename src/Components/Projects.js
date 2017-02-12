@@ -33,11 +33,11 @@ class Project extends Component{
 
 				<div className='row kill-margin'>
 
-					<div className='col-xs-12 hide-word-worm col-sm-5 col-sm-offset-1'>
+					<div className='col-xs-12 hide-word-worm col-sm-5 col-sm-offset-0'>
 						<img className='project-image-word-worm margin-above' src='../../Images/Projects-Page/BookWorm.png' />
 					</div>
 
-					<div className='col-xs-12 col-sm-5'>						
+					<div className='col-xs-12 col-sm-5 col-sm-offset-1'>						
 						
 
 						<hr className='heading-spacer'/>

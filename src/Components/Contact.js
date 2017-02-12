@@ -7,13 +7,13 @@ class Contact extends Component{
 	render(){
 		return(
 			<div>
-				<div>
+				<div className='move-contact-me-section-down'>
 					
-					<div className='quote-text'>
+					<div className='description-text'>
 						I like building things and meeting new people! 
 					</div>
 
-					<div className='quote-text'>
+					<div className='description-text'>
 						Learn more / Contact Me:
 					</div>					
 

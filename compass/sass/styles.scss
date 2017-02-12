@@ -31,6 +31,10 @@ $text: #4F4F4F;
   .nav-bar-link-top{
     font-size: 2.7vw;
   }
+
+  .move-contact-me-section-down{
+    margin-top: 0px !important;
+  }
   
 }
 
@@ -42,9 +46,11 @@ $text: #4F4F4F;
   // hide top word worm depending on zoom size
   .hide-word-worm{
     display: none;
+   
   }
   .show-word-worm{
     display: block !important;
+    text-align: center;
 
   }
 }
@@ -421,6 +427,12 @@ $text: #4F4F4F;
 
 //projects section
 
+.hide-word-worm{
+    
+    text-align: center;
+    
+  }
+
 .heading-spacer{
 	border-top: 2px solid lightgrey;
 	width: 50%;
@@ -445,13 +457,17 @@ $text: #4F4F4F;
 
 .show-word-worm{
   display: none;
+  text-align: center;
 }
 
 
 //contact me section
-
+.move-contact-me-section-down{
+  margin-top: 170px;
+}
 .contact-me-section{
 	border-top: 2px solid lightgrey;
+
 }
 
 .fa-linkedin-square{
