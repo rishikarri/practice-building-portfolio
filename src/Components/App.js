@@ -31,7 +31,7 @@ class App extends Component {
                 	
                 </div>
 
-                <div className='content-portion-div col-xs-12 col-sm-12 col-md-10 full-view-height padding-none'>
+                <div className='content-portion-div margin-above col-xs-12 col-sm-12 col-md-10 full-view-height padding-none'>
                 	{this.props.children}
                 </div>
                 
