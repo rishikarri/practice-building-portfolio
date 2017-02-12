@@ -17,7 +17,45 @@ $mylightGrey: #e7e7e7;
 $text: #4F4F4F;
 
 
+  // styling to make side nav bar and top nav bar responsive
+  @media only screen and (max-width: 992px){
+  .side-nav-bar-div{
+    display: none !important;
+    /* display: visible; */
+  }
 
+  // .top-nav-bar{
+  //   display: block !important;
+  // }
+  
+}
+
+.top-nav-bar{
+  height: 70px; 
+  background-color: $myGrey;
+  border: solid 1px $mylightGrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav-bar-link-top{
+  font-size: 24px;
+  color: $myBlue;
+
+}
+
+//move the first link over to the right a bit
+.nav-bar-link-top-first{
+  margin-left: 60px;   
+
+}
+
+.nav-bar-link-top-last{
+  margin-right: 60px;   
+
+}
 
 
  .side-nav-bar{
@@ -40,7 +78,7 @@ $text: #4F4F4F;
  		text-align: center; 		
  		font-weight: 200;
  		font-size: 3vw;
- 		color: #337ab7;
+ 		color: $myBlue;
  		// color: #7C99B4;
  		// color: #8BB8D7;
 
@@ -387,6 +425,9 @@ $text: #4F4F4F;
 	display: inline-block;
 }
 
+.margin-right{
+  margin-right: 30px;
+}
 
 
 

@@ -9,6 +9,8 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // bring in necessary components
 
 import SideNavBar from './SideNavBar.js'
+// Top nav bar will always be on top, we just will have to decide when to display it or not
+import TopNavBar from './TopNavBar.js';
 import '../CSS/styles.css'
 
 
@@ -20,12 +22,16 @@ class App extends Component {
     return (
          <div className="container-fluid">
             <div className="row">
-            	<div className="col-xs-2 padding-none">
+
+              <div className='col-xs-12 top-nav-bar-div padding-none'>
+                  <TopNavBar />
+              </div>
+            	<div className="col-md-2 side-nav-bar-div padding-none">
                 	<SideNavBar />
                 	
                 </div>
 
-                <div className='col-xs-10 full-view-height padding-none'>
+                <div className='content-portion-div col-xs-12 col-sm-12 col-md-10 full-view-height padding-none'>
                 	{this.props.children}
                 </div>
                 

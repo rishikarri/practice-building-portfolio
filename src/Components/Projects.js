@@ -16,6 +16,11 @@ class Project extends Component{
 							<h2>COMING SOON: Village Savior</h2>
 							<p>Monsters and thieves are about to attack your village. Please fight them off as long as you can in order to give the villagers time to escape! Be careful! If your health falls to 0 you must retreat!</p>
 							<p> HTML & CSS, Javascript (Code is intentionally written without frameworks)</p>
+
+							<div className='repo-demo-links'>
+								<a className='margin-right' target="_blank" href='http://rishikarri.com/village-savior/'><button> Current Status Of Game</button></a>
+								<a target="_blank" href='https://github.com/rishikarri/village-savior'><button> Repository</button></a>
+							</div>
 						</div>
 					</div>
 
@@ -42,6 +47,11 @@ class Project extends Component{
 
 							<p>A word learning app for children. Users are able to take vocabulary quizzes, look up words, and much more!</p>
 							<p> HTML & CSS, Bootstrap, React.js & React-Router, Javascript (ES-6), jQuery</p>
+
+							<div className='repo-demo-links'>
+								<a className='margin-right' target="_blank" href='#'><button> Current Status Of Game</button></a>
+								<a target="_blank" href='https://github.com/CaseyTM/WordWorms'><button> Repository</button></a>
+							</div>							
 						</div>						
 					</div>
 
