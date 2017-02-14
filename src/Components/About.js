@@ -37,7 +37,7 @@ class About extends Component{
 					<div> <img className='about-me-company-photo margin-above' src='../../Images/digitalcrafts-logo-1200-new.png' height="80" width="200" /> </div>
 					{/* Text for dc description */}
 					<div> 
-						<p> DigitalCrafts is a sixteen week, immersive, full-time accelerated learning program. The goal of the program is to prepare its students to be full-stack developers and software engineers upon graduating. There is a strong emphasis on efficient code design, version control, responsive applications, and analytical thinking. Learn more <a target="_blank" href='http://www.digitalcrafts.com/'>here</a>!</p>						
+						<p> DigitalCrafts is a sixteen week, immersive, full-time accelerated learning program. The goal of the program is to prepare its students to be full-stack developers and software engineers upon graduation. There is a strong emphasis on efficient code design, version control, responsive applications, and analytical thinking. Learn more <a target="_blank" href='http://www.digitalcrafts.com/'>here</a>!</p>						
 					</div>
 
 					<div> <img className='about-me-company-photo margin-above' src='../../Images/university-of-wisco-logo.png' /> </div>
