@@ -18,10 +18,11 @@ class Contact extends Component{
 					</div>					
 
 					<div className='col-xs-6 col-xs-offset-3 contact-me-section margin-above'>
+					</div>
 
-
-
-						<div className='give-me-some-space margin-above'>
+				{/*outer div which holds icons */}
+					<div className='col-xs-12 col-md-6 col-md-offset-3 margin-above'>
+						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet'>
 								<li>
 									<i className="fa fa-envelope fa-5x" aria-hidden="true"></i>								
@@ -32,7 +33,7 @@ class Contact extends Component{
 							</ul>						
 						</div>
 
-						<div className='give-me-some-space'>
+						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet'>
 								<li>
 									<a href='https://github.com/rishikarri'><i className="fa fa-github-square fa-5x" aria-hidden="true"></i></a>
@@ -43,7 +44,7 @@ class Contact extends Component{
 							</ul>						
 						</div>						
 
-						<div className='give-me-some-space'>
+						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet'>
 								<li>
 									<i className="fa fa-file-pdf-o fa-5x" aria-hidden="true"></i>
@@ -55,7 +56,7 @@ class Contact extends Component{
 						</div>						
 
 
-						<div className='give-me-some-space'>
+						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet'>
 								<li>
 									<a href='https://www.linkedin.com/in/rishi-karri-35898465'> <i className="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
