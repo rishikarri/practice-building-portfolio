@@ -1,6 +1,5 @@
 
 
-
 //declaration of variables used 
 
 $myLightBlue: #00B7FF;
@@ -14,6 +13,8 @@ $darkerGrey: #a9a9a9;
 $HRBorder: darkgrey;
 $mylightGrey: #e7e7e7;
 $text: #4F4F4F;
+
+
 
 
   // styling to make side nav bar and top nav bar responsive
@@ -118,6 +119,8 @@ $text: #4F4F4F;
  	height: 100vh; //want it to be 100% of whatever the viewport is 	
  	top: 0;
  	left: 0; 
+  position: fixed;
+  padding: 20px;
  	
  	 // background: linear-gradient($darkerGrey, $myGrey, $myGrey, $lightGrey, white,  $myblue);
  	 background-color: $myGrey;
@@ -129,7 +132,7 @@ $text: #4F4F4F;
  	box-shadow: 80px;
 
  	.nav-bar-link{
- 		margin-top: 4vh;
+ 		margin-top: 2.8vw;
  		display: block;
  		text-align: center; 		
  		font-weight: 200;
@@ -646,7 +649,7 @@ body{
 #divAnimationBlock3 { animation: wave 17s  1.6s linear infinite;}
 #divAnimationBlock4 { animation: wave 17s   0.8s linear infinite;}
 
-#hi-animation-block { animation: wave 17s   0.1s linear infinite;}
+#hi-animation-block { animation: hiWave 17s   0.1s linear infinite;}
 /* #divAnimationBlock2  { animation: wave 17s -16.227s linear infinite}
 #divAnimationBlock3  { animation: wave 17s -15.455s linear infinite;}
 #divAnimationBlock4 { animation: wave 17s -14.682s linear infinite;} */
@@ -692,6 +695,30 @@ body{
   80%  { height:54%; margin-top: 4%; background: #3AF9DA; }
   85%  { background: #36EBF4; }
   90%  { height:30%; margin-top:  1%; background: #3DB3F3; }
+  95%  { background: #3C82F1; }
+  100% { height:54%; margin-top: 4%; left:100%; background: #5B38EE; }
+}
+
+@keyframes hiWave {
+  0%   { left:-2%; background: #3B44D1; }
+  5%   { background: #9337FE; }
+  8%  { height:20%; margin-top: 1%; background: #C532FC; }
+  10%  { background: #F639F8; }
+  13%  { height:44%; margin-top: 4%; background: #F236C8; }
+  15%  { background: #FF2F8D; }
+  30%  { height:20%; margin-top: 1%; background: #EE3860; }
+  35%  { background: #DC5245; }
+  40%  { height:44%; margin-top: 4%; background: #F38643; }
+  45%  { background: #F8B435; }
+  50%  { height:18%; margin-top: 1%; background: #FAF444; }
+  55%  { background: #E0FF3B; }
+  60%  { height:44%; margin-top: 4%; background: #E1FF3C; }
+  65%  { background: #46F443; }
+  70%  { height:25%; margin-top:  1%; background: #54E67B; }
+  75%  { background: #4DF3A9; }
+  80%  { height:44%; margin-top: 4%; background: #3AF9DA; }
+  85%  { background: #36EBF4; }
+  90%  { height:22%; margin-top:  1%; background: #3DB3F3; }
   95%  { background: #3C82F1; }
   100% { height:54%; margin-top: 4%; left:100%; background: #5B38EE; }
 }
