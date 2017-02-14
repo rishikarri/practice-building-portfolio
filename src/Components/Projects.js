@@ -18,8 +18,8 @@ class Project extends Component{
 							<p> HTML & CSS, Javascript (Code is intentionally written without frameworks)</p>
 
 							<div className='repo-demo-links'>
-								<a className='margin-right' target="_blank" href='http://rishikarri.com/village-savior/'><button> Current Status Of Game</button></a>
-								<a target="_blank" href='https://github.com/rishikarri/village-savior'><button> Repository</button></a>
+								<a className='margin-right' target="_blank" href='http://rishikarri.com/village-savior/'><button className='btn btn-primary'> Current Status Of Game</button></a>
+								<a target="_blank" href='https://github.com/rishikarri/village-savior'><button className='btn btn-primary'> Repository</button></a>
 							</div>
 						</div>
 					</div>
@@ -49,8 +49,8 @@ class Project extends Component{
 							<p> HTML & CSS, Bootstrap, React.js & React-Router, Javascript (ES-6), jQuery</p>
 
 							<div className='repo-demo-links'>
-								<a className='margin-right' target="_blank" href='#'><button> Current Status Of Game</button></a>
-								<a target="_blank" href='https://github.com/CaseyTM/WordWorms'><button> Repository</button></a>
+								<a className='margin-right' target="_blank" href='#'><button className='btn btn-primary'> Current Status Of Game</button></a>
+								<a target="_blank" href='https://github.com/CaseyTM/WordWorms'><button className='btn btn-primary'> Repository</button></a>
 							</div>							
 						</div>						
 					</div>

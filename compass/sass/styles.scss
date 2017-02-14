@@ -1,14 +1,13 @@
 
-// @import "../../font-awesome-4.7.0/scss/icons.scss";
 
-// new
-$backgroundColor: white;
+
+//declaration of variables used 
 
 $myLightBlue: #00B7FF;
 $myBlue: #337ab7;
-// $myGreen: #00cd00;
+
 $myGreen: #00cd00;
-// $myGrey: #E1E1D9;
+
 $myGrey: #f8f8f8;
 $lightGrey: #DCDCDC;
 $darkerGrey: #a9a9a9;
@@ -18,6 +17,12 @@ $text: #4F4F4F;
 
 
   // styling to make side nav bar and top nav bar responsive
+  // when I am over 992 px
+  @media only screen and (min-width: 992px){
+    .responsive-margin-above{
+      margin-top: 40px;
+    }
+  }
   @media only screen and (max-width: 992px){
   .side-nav-bar-div{
     display: none !important;
@@ -35,6 +40,9 @@ $text: #4F4F4F;
   .move-contact-me-section-down{
     margin-top: 0px !important;
   }
+
+
+
   
 }
 
@@ -427,6 +435,11 @@ $text: #4F4F4F;
 
 //projects section
 
+.btn{
+  border-radius: 10px;
+  background-color: $myBlue ;
+}
+
 .hide-word-worm{
     
     text-align: center;
@@ -462,6 +475,10 @@ $text: #4F4F4F;
 
 
 //contact me section
+
+.fa-5x{
+  color: $myBlue;
+}
 .move-contact-me-section-down{
   margin-top: 170px;
 }
@@ -471,7 +488,7 @@ $text: #4F4F4F;
 }
 
 .fa-linkedin-square{
-	color: $myBlue;
+	// color: $myBlue;
 }
 
 .no-bullet{

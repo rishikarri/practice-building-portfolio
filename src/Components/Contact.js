@@ -45,7 +45,7 @@ class Contact extends Component{
 						</div>						
 
 						<div className='col-xs-12 col-md-6'>	
-							<ul className='no-bullet'>
+							<ul className='no-bullet responsive-margin-above'>
 								<li>
 									<i className="fa fa-file-pdf-o fa-5x" aria-hidden="true"></i>
 								</li>
@@ -57,7 +57,7 @@ class Contact extends Component{
 
 
 						<div className='col-xs-12 col-md-6'>	
-							<ul className='no-bullet'>
+							<ul className='no-bullet responsive-margin-above'>
 								<li>
 									<a href='https://www.linkedin.com/in/rishi-karri-35898465'> <i className="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
 								</li>
