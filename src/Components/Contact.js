@@ -25,7 +25,7 @@ class Contact extends Component{
 						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet'>
 								<li>
-									<i className="fa fa-envelope fa-5x" aria-hidden="true"></i>								
+									<a href='mailto:rishikarri1@gmail.com'><i className="fa fa-envelope fa-5x" aria-hidden="true"></i></a>								
 								</li>
 								<li>
 									Email
