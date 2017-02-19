@@ -74,50 +74,63 @@ class Interests extends Component{
 
 							<hr className='heading-spacer-about-me'/>				
 
-							<div className='col-xs-6 col-xs-offset-2 center-text padding-none'> 
-								<table className='margin-above'>
+							<div className='col-xs-12 center-text padding-none contain-table'> 
+								<table className='margin-above middle-of-div'>
 									<thead>
 										<tr className='taller-table-rows'>
 											<td className='title-or-date'>Book Title:</td>										
 											<td className='title-or-date'>Author:</td>
-											<td className='title-or-date'>Completed On:</td>
+											<td className='title-or-date'>Completed:</td>
 										</tr>
 									</thead>
 
 									<tbody>
 
 										<tr className='taller-table-rows'>
-											<td className='data-entry'>The Autobiography of Martin Luther King Jr. </td>
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/20839546-diamond-boy?from_search=true' target="_blank">Diamond Boy</a></td>
+											<td className='data-entry'>Michael Williams</td>										
+											<td className='data-entry'>Currently Reading</td>										
+										</tr>
+
+										<tr className='taller-table-rows'>					
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/42547.The_Autobiography_of_Martin_Luther_King_Jr_' target="_blank">The Autobiography of Martin Luther King Jr.</a></td>
 											<td className='data-entry'>Martin Luther King Jr.</td>										
 											<td className='data-entry'>Currently Reading</td>										
 										</tr>
 
 										<tr className='taller-table-rows'>
-											<td className='data-entry'>A Thousand Splendid Suns</td>
-											<td className='data-entry'>Khaled Hosseini</td>																				
-											<td className='data-entry'>1/27/2017</td>										
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/22557272-the-girl-on-the-train?ac=1&from_search=true' target="_blank">The Girl on the Train</a></td>											
+											<td className='data-entry'>Paula Hawkins</td>																				
+											<td className='data-entry'>2/19/2017</td>										
 										</tr>
 
-										<tr className='taller-table-rows'>
-											<td className='data-entry'>8 Minute Meditation</td>
+										<tr className='taller-table-rows'>										
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/128029.A_Thousand_Splendid_Suns?ac=1&from_search=true' target="_blank">A Thousand Splendid Suns</a></td>											
+											<td className='data-entry'>Khaled Hosseini</td>																				
+											<td className='data-entry'>1/28/2017</td>										
+										</tr>
+
+										<tr className='taller-table-rows'>										
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/30655.8_Minute_Meditation?ac=1&from_search=true' target="_blank">8 Minute Meditation</a></td>																						
 											<td className='data-entry'>Victor Davich</td>																				
 											<td className='data-entry'>1/8/2017</td>										
 										</tr>		
 
-										<tr className='taller-table-rows'>
-											<td className='data-entry'>Everburn</td>
+										<tr className='taller-table-rows'>										
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/13489835-everburn' target="_blank">Everburn</a></td>
 											<td className='data-entry'>Robert Bunch</td>																																								
 											<td className='data-entry'>1/3/2017</td>										
 										</tr>		
 
 										<tr className='taller-table-rows'>
-											<td className='data-entry'>And The Mountains Echoed</td>
+										
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/16115612-and-the-mountains-echoed?from_search=true' target="_blank">And the Mountains Echoed</a></td>											
 											<td className='data-entry'>Khaled Hosseini</td>																																								
 											<td className='data-entry'>11/20/2016</td>										
 										</tr>		
 
 										<tr className='taller-table-rows'>
-											<td className='data-entry'>The One Thing</td>	
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/16256798-the-one-thing?from_search=true' target="_blank">The One Thing</a></td>																						
 											<td className='data-entry'>Gary W. Keller & Jay Papasan</td>																																																											
 											<td className='data-entry'>10/25/2016</td>										
 										</tr>

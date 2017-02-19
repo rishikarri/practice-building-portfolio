@@ -42,9 +42,9 @@ $text: #4F4F4F;
     margin-top: 0px !important;
   }
 
-
-
-  
+  .taller-table-rows{
+    height: 7.8vh !important;
+  }
 }
 
 @media only screen and (max-width: 768px){
@@ -307,6 +307,10 @@ $text: #4F4F4F;
 
  // styling for table in interests section
 
+ .contain-table{
+  display: table;
+ }
+
  .title-or-date{
 	// font-size: 2.2vw;
 	font-size: 22px;
@@ -334,7 +338,7 @@ $text: #4F4F4F;
 }
 
 .taller-table-rows{
-	height: 5vh;
+	height: 4.8vh;
 }
 
 .tallest-table-rows{
@@ -411,6 +415,10 @@ $text: #4F4F4F;
 	width: 80px;
   //spin on hover
   transition: transform 0.8s ease-in-out; 
+}
+
+.middle-of-div{
+  margin: 0 auto;
 }
 
 .interests-image:hover{
