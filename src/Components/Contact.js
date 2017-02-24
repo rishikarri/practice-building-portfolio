@@ -25,7 +25,7 @@ class Contact extends Component{
 						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet'>
 								<li>
-									<a href='mailto:rishikarri1@gmail.com'><i className="fa fa-envelope fa-5x" aria-hidden="true"></i></a>								
+									<a target="_blank" href='mailto:rishikarri1@gmail.com'><i className="fa fa-envelope fa-5x" aria-hidden="true"></i></a>								
 								</li>
 								<li>
 									Email
@@ -36,7 +36,7 @@ class Contact extends Component{
 						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet'>
 								<li>
-									<a href='https://github.com/rishikarri'><i className="fa fa-github-square fa-5x" aria-hidden="true"></i></a>
+									<a target="_blank" href='https://github.com/rishikarri'><i className="fa fa-github-square fa-5x" aria-hidden="true"></i></a>
 								</li>
 								<li>
 									Github
@@ -47,7 +47,7 @@ class Contact extends Component{
 						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet responsive-margin-above'>
 								<li>
-									<i className="fa fa-file-pdf-o fa-5x" aria-hidden="true"></i>
+									<a target="_blank" href='../../Files/Rishi-Karri-Resume.pdf'><i className="fa fa-file-pdf-o fa-5x" aria-hidden="true"></i></a>
 								</li>
 								<li>
 									Resume
@@ -59,7 +59,7 @@ class Contact extends Component{
 						<div className='col-xs-12 col-md-6'>	
 							<ul className='no-bullet responsive-margin-above'>
 								<li>
-									<a href='https://www.linkedin.com/in/rishi-karri-35898465'> <i className="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
+									<a target="_blank" href='https://www.linkedin.com/in/rishi-karri-35898465'> <i className="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
 								</li>
 								<li>
 									LinkedIn
