@@ -49,7 +49,7 @@ class Project extends Component{
 							<p> HTML & CSS, Bootstrap, React.js & React-Router, Javascript (ES-6), jQuery</p>
 
 							<div className='repo-demo-links'>
-								<a className='margin-right' target="_blank" href='#'><button className='btn btn-primary'> Current Status Of Game</button></a>
+								<a className='margin-right' target="_blank" href='https://github.com/CaseyTM/WordWorms/blob/master/src/Images/wordworms_1.gif'><button className='btn btn-primary'> Demo </button></a>
 								<a target="_blank" href='https://github.com/CaseyTM/WordWorms'><button className='btn btn-primary'> Repository</button></a>
 							</div>							
 						</div>						

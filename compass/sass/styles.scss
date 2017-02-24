@@ -25,6 +25,7 @@ $text: #4F4F4F;
     }
   }
   @media only screen and (max-width: 992px){
+
   .side-nav-bar-div{
     display: none !important;
     /* display: visible; */
@@ -281,22 +282,22 @@ $text: #4F4F4F;
  }
 
  .description-text{
- 	font-family: cursive; 
+  font-family: 'Hind Siliguri', sans-serif;
  	font-size: 24px;
  	text-align: center;
  	margin: auto;
- 	color: #7A7A7A;
+ 	color: #212121;
  }
 
 
 
  .description-text-smaller{
- 	font-family: cursive; 
+ 	font-family: 'Hind Siliguri', sans-serif;
  	font-size: 14.5px;
  	text-align: center;
  	margin: auto;
  	padding-right: 0px !important;
- 	color: #7A7A7A;
+ 	color: #212121;
  }
 
  .about-me-header{
@@ -602,8 +603,8 @@ body{
 
 #h-2Block{
     width: 90%;
-    height: 17%;
-    top: 27%;
+    height: 11%;
+    top: 29%;
     left: 12%;
     margin-top: -1.5%;
     background-color: white;
