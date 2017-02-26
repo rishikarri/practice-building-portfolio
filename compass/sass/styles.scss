@@ -24,6 +24,11 @@ $text: #4F4F4F;
   .side-nav-bar .nav-bar-link {
     font-size: 35px !important;
   }
+
+  .animation-container{
+      margin-left: 0px !important;
+    }
+
 }
   // when I am over 992 px
 
@@ -31,6 +36,10 @@ $text: #4F4F4F;
   @media only screen and (min-width: 992px){
     .responsive-margin-above{
       margin-top: 40px;
+    }
+
+    .animation-container{
+      margin-left: 13px;
     }
   }
   @media only screen and (max-width: 992px){
