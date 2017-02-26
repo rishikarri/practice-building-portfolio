@@ -57,99 +57,127 @@ class About extends Component{
 
 					<div className='col-xs-12 margin-above'> 
 
-						<div className='col-xs-3'>
+						<div className='col-xs-4'>
 
 							<img className='skill-image' src='../../Images/Icons/html-logo.png' height="512" width="512" />
 							<div>HTML</div>
 						</div>
 
-						<div className='col-xs-3'>
+						<div className='col-xs-4'>
 							<img className='skill-image' src='../../Images/Icons/css3.png' />
 							<div>CSS</div>
 
 						</div>
 
-						<div className='col-xs-3'>
+						<div className='col-xs-4'>
 							<img className='skill-image' src='../../Images/Icons/Bootstrap.png'/>
 							<div>Bootstrap</div>
 
 						</div>
 
-						<div className='col-xs-3 skill-image-only-hover'><img className='skill-image' src='../../Images/Icons/Sass.png' />
-							<div>Sass</div>
-						</div>
+						
 					</div>
 
 
 					<div className='col-xs-12 margin-above'> 
 
-						<div className='col-xs-3'><img className='skill-image' src='../../Images/Icons/javascript-logo.png' />
+						<div className='col-xs-4 skill-image-only-hover'><img className='skill-image' src='../../Images/Icons/Sass.png' />
+							<div>Sass</div>
+						</div>
+
+						<div className='col-xs-4'><img className='skill-image' src='../../Images/Icons/javascript-logo.png' />
 							<div>Javascript</div>
 						</div>
 
-						<div className='col-xs-3'>
+						<div className='col-xs-4'>
 							<img className='skill-image' src='../../Images/Icons/jquery.png' />
 							<div>jQuery</div>
-						</div>
+						</div>						
 
-						<div className='col-xs-3'>
+					</div>	
+
+
+					<div className='col-xs-12 margin-above'> 
+
+						<div className='col-xs-4'>
 							<img className='skill-image' src='../../Images/Icons/React.png' />
 							<div>React.js</div>
 
 						</div>
 
-						<div className='col-xs-3'>
+						<div className='col-xs-4'>
 							<img className='skill-image' src='../../Images/Icons/Redux.png' />
 							<div>Redux.js</div>
-						</div>						
-
-					</div>	
+						</div>							
 
 
-					<div className='col-xs-12 margin-above'> 	
-
-
-						<div className='col-xs-3'>
+						<div className='col-xs-4'>
 							<img className='skill-image-only-hover' src='../../Images/Icons/nodejs.png' />
 							<div>Node.js</div>
 						</div>
+						
+					</div>	
 
-						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/git.png' />
+					<div className='col-xs-12 margin-above'> 	
+
+						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/git.png' />
 							<div>Git</div>
 						</div>
 
-						<div className='col-xs-3'>
+						<div className='col-xs-4'>
 							<img className='skill-image' src='../../Images/Icons/github.png' />
 							<div>Github</div>
 						</div>
-						<div className='col-xs-3'>
+
+						<div className='col-xs-4'>
 							<img className='skill-image' src='../../Images/Icons/python.png' />
 							<div>Python</div>
 						</div>												
 						<div>&nbsp;</div>
+
+																						
+						<div>&nbsp;</div>
+
 					</div>	
 
 					<div className='col-xs-12 margin-above'> 	
 
 
-						<div className='col-xs-3'>
+						<div className='col-xs-4'>
 							<img className='skill-image-only-hover' src='../../Images/Icons/sourceTree.png'/>
 							<div>Source Tree</div>
 						</div>
 
-						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/MySQL.png'/>
+						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/MySQL.png'/>
 							<div>MySQL</div>
 						</div>						
 
-						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftExcel.png'/>
+						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftExcel.png'/>
 							<div>Excel / Financial Modeling</div>
 						</div>						
-
-						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftPowerPoint.png'/>
-							<div>PowerPoint</div>
-						</div>																		
+						
 						<div>&nbsp;</div>
 					</div>	
+
+					<div className='col-xs-12 margin-above'> 	
+
+
+						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftPowerPoint.png'/>
+							<div>PowerPoint</div>
+						</div>
+
+						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/ExpressLogo.png' height="40" width="104"/>
+							<div>Express.js</div>
+						</div>
+
+						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/capitalIQlogo.png'/>
+							<div>CapitalIQ</div>
+						</div>																																																						
+						
+						<div>&nbsp;</div>
+					</div>	
+					
+						
 						
 					{/*template div - <div className='col-md-2'><img className='skill-image' src='../../public/Images/Icons/React.png' /></div>*/}
 					
@@ -169,3 +197,26 @@ class About extends Component{
 }
 
 export default About;
+
+
+// <div className='col-xs-12 margin-above'> 	
+
+
+// 						<div className='col-xs-3'>
+// 							<img className='skill-image-only-hover' src='../../Images/Icons/ExpressLogo.png'/>
+// 							<div>Express.js</div>
+// 						</div>
+
+// 						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/MySQL.png'/>
+// 							<div>MySQL</div>
+// 						</div>						
+
+// 						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftExcel.png'/>
+// 							<div>Excel / Financial Modeling</div>
+// 						</div>						
+
+// 						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftPowerPoint.png'/>
+// 							<div>PowerPoint</div>
+// 						</div>																		
+// 						<div>&nbsp;</div>
+// 					</div>	

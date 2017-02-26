@@ -21,17 +21,17 @@ class App extends Component {
 
     return (
          <div className="container-fluid">
-            <div className="row">
+              <div className="row">
 
-              <div className='col-xs-12 top-nav-bar-div padding-none'>
-                  <TopNavBar />
-              </div>
-            	<div className="col-md-2 side-nav-bar-div padding-none">
-                	<SideNavBar />
-                	
+                <div className='col-xs-12 top-nav-bar-div padding-none'>
+                    <TopNavBar />
                 </div>
 
-                <div className='content-portion-div margin-above col-xs-12 col-sm-12 col-md-10 full-view-height padding-none'>
+              	<div>
+                  	<SideNavBar />            
+                </div>
+
+                <div className='content-portion-div margin-above col-xs-12 col-sm-12 col-md-10 col-md-offset-2 col-lg-9 col-lg-offset-2 full-view-height padding-none'>
                 	{this.props.children}
                 </div>
                 

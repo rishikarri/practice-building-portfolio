@@ -23,7 +23,7 @@
 }
 @media only screen and (max-width: 992px) {
   /* line 47, ../../compass/sass/styles.scss */
-  .side-nav-bar-div {
+  .side-nav-bar {
     display: none !important;
     /* display: visible; */
   }
@@ -35,7 +35,7 @@
 
   /* line 56, ../../compass/sass/styles.scss */
   .nav-bar-link-top {
-    font-size: 30px;
+    font-size: 26px;
   }
 
   /* line 60, ../../compass/sass/styles.scss */
