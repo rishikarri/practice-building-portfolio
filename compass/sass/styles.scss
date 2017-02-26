@@ -18,7 +18,16 @@ $text: #4F4F4F;
 
 
   // styling to make side nav bar and top nav bar responsive
+  @media only screen and (min-width: 1200px) {
+  /* line 23, ../../compass/sass/styles.scss */
+
+  .side-nav-bar .nav-bar-link {
+    font-size: 35px !important;
+  }
+}
   // when I am over 992 px
+
+
   @media only screen and (min-width: 992px){
     .responsive-margin-above{
       margin-top: 40px;
@@ -36,7 +45,7 @@ $text: #4F4F4F;
   }
 
   .nav-bar-link-top{
-    font-size: 2.7vw;
+    font-size: 30px;
   }
 
   .move-contact-me-section-down{
@@ -50,7 +59,7 @@ $text: #4F4F4F;
 
 @media only screen and (max-width: 768px){
   .nav-bar-link-top{
-    font-size: 4.0vw;
+    font-size: 4.4vw;
   }
 
   // hide top word worm depending on zoom size
@@ -70,6 +79,7 @@ $text: #4F4F4F;
 }
 
 .top-nav-bar{
+  height: 80px;
   font-size: 24px;
   background-color: $myGrey;
   border: solid 1px $mylightGrey;
@@ -106,12 +116,12 @@ $text: #4F4F4F;
 
 //move the first link over to the right a bit
 .nav-bar-link-top-first{
-  margin-left: 30px;   
+  margin-left: 20px;   
 
 }
 
 .nav-bar-link-top-last{
-  margin-right: 30px;   
+  margin-right: 20px;   
 
 }
 
