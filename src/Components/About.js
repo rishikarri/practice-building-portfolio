@@ -120,6 +120,24 @@ class About extends Component{
 
 					<div className='col-xs-12 margin-above'> 	
 
+						<div className='col-xs-4'>
+							<img className='skill-image-only-hover' src='../../Images/Icons/ExpressLogov2.png' height="34" width="90"/>
+							<div>Express.js</div>
+						</div>						
+
+						<div className='col-xs-4'>
+							<img className='skill-image' src='../../Images/Icons/python.png' />
+							<div>Python</div>
+						</div>
+
+						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/MySQL.png'/>
+							<div>MySQL</div>
+						</div>												
+
+					</div>	
+
+					<div className='col-xs-12 margin-above'> 	
+
 						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/git.png' />
 							<div>Git</div>
 						</div>
@@ -130,48 +148,30 @@ class About extends Component{
 						</div>
 
 						<div className='col-xs-4'>
-							<img className='skill-image' src='../../Images/Icons/python.png' />
-							<div>Python</div>
-						</div>												
-						<div>&nbsp;</div>
-
-																						
-						<div>&nbsp;</div>
-
-					</div>	
-
-					<div className='col-xs-12 margin-above'> 	
-
-
-						<div className='col-xs-4'>
 							<img className='skill-image-only-hover' src='../../Images/Icons/sourceTree.png'/>
 							<div>Source Tree</div>
 						</div>
 
-						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/MySQL.png'/>
-							<div>MySQL</div>
-						</div>						
-
-						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftExcel.png'/>
-							<div>Excel / Financial Modeling</div>
-						</div>						
+						
+						
 						
 						<div>&nbsp;</div>
 					</div>	
 
-					<div className='col-xs-12 margin-above'> 	
+					<div className='col-xs-12 margin-above'> 
+
+						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftExcel.png'/>
+							<div>Excel / Financial Modeling</div>
+						</div>							
 
 
 						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftPowerPoint.png'/>
 							<div>PowerPoint</div>
 						</div>
 
-						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/ExpressLogo.png' height="40" width="104"/>
-							<div>Express.js</div>
-						</div>
 
-						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/capitalIQlogo.png'/>
-							<div>CapitalIQ</div>
+						<div className='col-xs-4'><img className='skill-image-only-hover' src='../../Images/Icons/capitalIQLogo.png' height="43" width="40"/>
+							<div>Capital IQ</div>
 						</div>																																																						
 						
 						<div>&nbsp;</div>
@@ -199,24 +199,3 @@ class About extends Component{
 export default About;
 
 
-// <div className='col-xs-12 margin-above'> 	
-
-
-// 						<div className='col-xs-3'>
-// 							<img className='skill-image-only-hover' src='../../Images/Icons/ExpressLogo.png'/>
-// 							<div>Express.js</div>
-// 						</div>
-
-// 						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/MySQL.png'/>
-// 							<div>MySQL</div>
-// 						</div>						
-
-// 						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftExcel.png'/>
-// 							<div>Excel / Financial Modeling</div>
-// 						</div>						
-
-// 						<div className='col-xs-3'><img className='skill-image-only-hover' src='../../Images/Icons/microsoftPowerPoint.png'/>
-// 							<div>PowerPoint</div>
-// 						</div>																		
-// 						<div>&nbsp;</div>
-// 					</div>	
