@@ -31,9 +31,9 @@ class Interests extends Component{
 							</div>
 
 							<hr className='heading-spacer-about-me'/>				
-
-							<div className='col-xs-6 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-4  center-text padding-none'> 
-								<table className='margin-above'>
+							
+							<div className='col-xs-12 center-text padding-none'> 
+								<table className='margin-above middle-of-div'>
 
 									<tbody>
 
