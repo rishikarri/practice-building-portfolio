@@ -14,7 +14,7 @@ class Project extends Component{
 
 						<div className='section-heading'>
 							<h2>COMING SOON: Village Savior</h2>
-							<p>Monsters and thieves are about to attack your village. Stave them off as long as you can in order to give the villagers time to escape! Be careful! If your health falls to 0 you must retreat!</p>
+							<p>Monsters and thieves are about to attack your village. Stave them off as long as you can in order to give the villagers time to escape! Be very careful! If your health falls to 0 you must retreat!</p>
 							<p> HTML & CSS, Javascript (Code is intentionally written without frameworks)</p>
 
 							<div className='repo-demo-links'>
@@ -45,7 +45,7 @@ class Project extends Component{
 						<div className='section-heading'>
 							<h2>COMING SOON: WordWorms</h2>
 
-							<p>A word learning app for children. Users are able to take vocabulary quizzes, look up words, and much more!</p>
+							<p>A word learning app. Users are able to take vocabulary quizzes, look up words, and much more!</p>
 							<p> HTML & CSS, Bootstrap, React.js & React-Router, Javascript (ES-6), jQuery</p>
 
 							<div className='repo-demo-links'>
