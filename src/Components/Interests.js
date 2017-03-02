@@ -127,13 +127,34 @@ class Interests extends Component{
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/16115612-and-the-mountains-echoed?from_search=true' target="_blank">And the Mountains Echoed</a></td>											
 											<td className='data-entry'>Khaled Hosseini</td>																																								
 											<td className='data-entry'>11/20/2016</td>										
-										</tr>		
+										</tr>	
+
+										<tr className='taller-table-rows'>
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/8341335-learn-python-the-hard-way' target="_blank">Learn Python the Hard Way</a></td>																						
+											<td className='data-entry'>Zed Shaw</td>																																																											
+											<td className='data-entry'>11/19/2016</td>										
+										</tr>
+	
+
+										<tr className='taller-table-rows'>
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/19319366-a-smarter-way-to-learn-javascript?from_search=true' target="_blank">A Smarter Way to Learn JavaScript</a></td>																						
+											<td className='data-entry'>Mark Myers</td>																																																											
+											<td className='data-entry'>11/3/2016</td>										
+										</tr>
+
 
 										<tr className='taller-table-rows'>
 											<td className='data-entry'><a href='http://www.goodreads.com/book/show/16256798-the-one-thing?from_search=true' target="_blank">The One Thing</a></td>																						
 											<td className='data-entry'>Gary W. Keller & Jay Papasan</td>																																																											
 											<td className='data-entry'>10/25/2016</td>										
 										</tr>
+
+										<tr className='taller-table-rows'>
+											<td className='data-entry'><a href='http://www.goodreads.com/book/show/25137361-a-smarter-way-to-learn-html-css' target="_blank">A Smarter Way to Learn HTML & CSS</a></td>																						
+											<td className='data-entry'>Mark Myers</td>																																																											
+											<td className='data-entry'>10/13/2016</td>										
+										</tr>
+
 									</tbody>
 								</table>
 							</div>
